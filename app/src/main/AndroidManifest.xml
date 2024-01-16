@@ -15,11 +15,8 @@
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
         <activity
-            android:name=".CarpetasViewHolder"
-            android:exported="false" />
-        <activity
-            android:name=".Perfil"
-            android:exported="true">
+            android:name=".PerfilCarpetas"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,9 +24,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CarpetasViewHolder"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
