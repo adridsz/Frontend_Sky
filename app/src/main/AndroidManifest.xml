@@ -16,12 +16,6 @@
             android:name=".Perfil"
             android:exported="false" />
         <activity
-            android:name=".BibliotecaViewHolder"
-            android:exported="false" />
-        <activity
-            android:name=".Biblioteca"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

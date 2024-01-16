@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@id/imagen_perfil" />
 
     <TextView
-        android:id="@+id/biografia_perfin"
+        android:id="@+id/biografia_perfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -37,5 +37,46 @@
         android:textSize="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nombre_perfil"/>
+
+    <ImageView
+        android:id="@+id/icono_modificar_imagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/icono_tres_puntos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <TextView
+        android:id="@+id/cartel_imagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imágenes"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toEndOf="@id/icono_modificar_imagenes"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <ImageView
+        android:id="@+id/icono_modificar_carpetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/icono_tres_puntos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <TextView
+        android:id="@+id/cartel_carpetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carpetas"
+        android:textStyle="bold"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toStartOf="@id/icono_modificar_carpetas"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
