@@ -23,8 +23,9 @@ public class CarpetasViewHolder extends RecyclerView.ViewHolder {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                String carpeta = imagenes.getNombre();
                 Context context = view.getContext();
-                Toast.makeText(context, "Entraste en una carpeta", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Entraste en la carpeta: "+carpeta, Toast.LENGTH_LONG).show();
             }
         });
     }

@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/icono_tres_puntos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Imágenes"
         android:textSize="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         app:layout_constraintStart_toEndOf="@id/icono_modificar_imagenes"
         app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
 
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="24dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:src="@drawable/icono_tres_puntos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
@@ -72,15 +72,14 @@
         android:id="@+id/cartel_carpetas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:text="Carpetas"
-        android:textStyle="bold"
         android:textSize="15dp"
         app:layout_constraintEnd_toStartOf="@id/icono_modificar_carpetas"
         app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_carpetas"
+        android:id="@+id/recycler_perfil"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
