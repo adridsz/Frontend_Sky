@@ -18,7 +18,7 @@
             android:name=".CarpetasViewHolder"
             android:exported="false" />
         <activity
-            android:name=".Perfil"
+            android:name=".PerfilCarpetas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

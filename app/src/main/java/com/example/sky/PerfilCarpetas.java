@@ -23,7 +23,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Perfil extends AppCompatActivity {
+public class PerfilCarpetas extends AppCompatActivity {
     private Context context;
     private RequestQueue requestQueue;
     @Override
