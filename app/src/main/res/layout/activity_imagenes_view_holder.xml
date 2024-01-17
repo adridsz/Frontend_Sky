@@ -15,4 +15,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <ImageView
+        android:id="@+id/imagen2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imagen"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

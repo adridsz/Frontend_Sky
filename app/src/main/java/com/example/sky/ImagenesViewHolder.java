@@ -15,12 +15,14 @@ import com.bumptech.glide.Glide;
 
 public class ImagenesViewHolder extends RecyclerView.ViewHolder {
     private ImageView imagen;
+    private ImageView imagen2;
     private ImagenesData imagenes;
 
     public ImagenesViewHolder(@NonNull View itemView) {
         super(itemView);
 
         imagen = (ImageView) itemView.findViewById(R.id.imagen);
+        imagen2 = (ImageView) itemView.findViewById(R.id.imagen2);
 
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +37,9 @@ public class ImagenesViewHolder extends RecyclerView.ViewHolder {
         Glide.with(itemView.getContext())
                 .load(data.getImageUrl())
                 .into(this.imagen);
+        Glide.with(itemView.getContext())
+                .load(data.getImageUrl2())
+                .into(this.imagen2);
         this.imagenes = data;
     }
 

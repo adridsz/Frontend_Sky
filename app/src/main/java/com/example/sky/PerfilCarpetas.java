@@ -23,6 +23,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class PerfilCarpetas extends AppCompatActivity {
@@ -74,9 +75,12 @@ public class PerfilCarpetas extends AppCompatActivity {
                         new Response.Listener<JSONArray>() {
                             @Override
                             public void onResponse(JSONArray response) {
-                                List<ImagenesData> todasLasFotos = new ArrayList<>();
+                                HashMap<String, String> imagenes = new HashMap<>();
+                                List<HashMap<String, String>> todasLasFotos = new ArrayList<>();
+                                /*int i=0;
                                 for (int i=0; i<response.length(); i++) {
                                     try {
+                                        imagenes.put()
                                         JSONObject imagen = response.getJSONObject(i);
                                         ImagenesData data = new ImagenesData(imagen);
                                         todasLasFotos.add(data);
@@ -84,9 +88,46 @@ public class PerfilCarpetas extends AppCompatActivity {
                                         e.printStackTrace();
                                     }
                                 }
+                                while (i<=response.length()) {
+                                    try {
+
+                                    } catch (JSONException e) {
+                                        throw new RuntimeException(e);
+                                    }
+
+
+                                }
                                 ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, activity);
                                 recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(activity));
+                                recyclerView.setLayoutManager(new LinearLayoutManager(activity));*/
+
+                                for (int i = 0; i < response.length(); i += 2) {
+                                    // Obtener datos para el primer elemento en la celda
+                                    try {
+                                        JSONObject imagen1 = response.getJSONObject(i);
+                                        ImagenesData data1 = new ImagenesData(imagen1);
+                                        HashMap<String, String> item1 = new HashMap<>();
+                                        item1.put("clave1", data1.getImageUrl());
+                                        todasLasFotos.add(item1);
+                                    } catch (JSONException e) {
+                                        throw new RuntimeException(e);
+                                    }
+
+                                    // Verificar si hay un segundo elemento en la celda
+                                    if (i + 1 < response.length()) {
+                                        // Obtener datos para el segundo elemento en la celda
+                                        try {
+                                            JSONObject imagen2 = response.getJSONObject(i + 1);
+                                            ImagenesData data2 = new ImagenesData(imagen2);
+                                            HashMap<String, String> item2 = new HashMap<>();
+                                            item2.put("clave1", data2.getImageUrl());
+                                            todasLasFotos.add(item2);
+                                        } catch (JSONException e) {
+                                            throw new RuntimeException(e);
+                                        }
+
+                                    }
+                                }
                             }
                         },
                         new Response.ErrorListener() {
