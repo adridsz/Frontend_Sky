@@ -1,15 +1,18 @@
 package com.example.sky.ui.perfil;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -36,6 +39,8 @@ public class PerfilFragment extends Fragment {
     private RequestQueue requestQueue;
     private TextView carpetas;
     private TextView imagenes;
+    private ImageView edit_carpetas;
+    private ImageView edit_imagenes;
     private RecyclerView recyclerView;
 
     @Nullable
@@ -48,8 +53,10 @@ public class PerfilFragment extends Fragment {
         carpetas = view.findViewById(R.id.cartel_carpetas);
         imagenes = view.findViewById(R.id.cartel_imagenes);
         recyclerView = view.findViewById(R.id.recycler_perfil);
+        edit_carpetas = view.findViewById(R.id.icono_modificar_carpetas);
+        edit_imagenes = view.findViewById(R.id.icono_modificar_imagenes);
 
-        // Establecer clics en los textviews
+        //establecer clics en los textviews
         imagenes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,6 +68,22 @@ public class PerfilFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 showRecycler(2);
+            }
+        });
+
+        //establecer clicls en los botones de editar
+        edit_carpetas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, "Has clicado en editar carpetas", Toast.LENGTH_LONG).show();
+                mostrarPopUp(1);
+            }
+        });
+
+        edit_imagenes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mostrarPopUp(2);
             }
         });
 
@@ -97,11 +120,12 @@ public class PerfilFragment extends Fragment {
                                         throw new RuntimeException(e);
                                     }
                                 }
-                               /* ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
+                            /*  ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
                                 recyclerView.setAdapter(adapter);
                                 recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
                             */
                             }
+
                         },
                         new Response.ErrorListener() {
                             @Override
@@ -143,6 +167,54 @@ public class PerfilFragment extends Fragment {
                         }
                 );
                 requestQueue.add(request2);
+                break;
+        }
+    }
+
+    private void mostrarPopUp(int opc) {
+        switch (opc) {
+            case 1:
+                AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
+                builder.setMessage("Editar carpetas");
+
+                //botón crear carpeta
+                builder.setPositiveButton("Crear carpeta", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(context, "Has clicado en crear carpeta", Toast.LENGTH_LONG).show();
+                    }
+                });
+
+                //botón eliminar carpeta
+                builder.setNegativeButton("Eliminar carpetas", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(context, "Has clicado en elimimar carpeta", Toast.LENGTH_LONG).show();
+                    }
+                });
+                builder.show();
+                break;
+
+            case 2:
+                AlertDialog.Builder builder2 = new AlertDialog.Builder(requireContext());
+                builder2.setMessage("Editar imágenes");
+
+                //botón subir foto
+                builder2.setPositiveButton("Subir foto", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(context, "Has clicado en subir foto", Toast.LENGTH_LONG).show();
+                    }
+                });
+
+                //botón eliminar foto
+                builder2.setNegativeButton("Eliminar foto", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(context, "Has clicado en eliminar foto", Toast.LENGTH_LONG).show();
+                    }
+                });
+                builder2.show();
                 break;
         }
     }
