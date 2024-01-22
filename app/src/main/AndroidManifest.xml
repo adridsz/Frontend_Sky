@@ -23,11 +23,6 @@
             android:name=".ui.perfil.ImagenesViewHolder"
             android:exported="false" />
         <activity
-            android:name=".PerfilCarpetas"
-            android:exported="false">
-
-        </activity>
-        <activity
             android:name=".ui.perfil.CarpetasViewHolder"
             android:exported="false" />
         <activity
