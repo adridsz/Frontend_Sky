@@ -1,4 +1,4 @@
-package com.example.sky;
+package com.example.sky.ui.perfil;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.sky.R;
+import com.example.sky.ui.perfil.CarpetasData;
 
 public class CarpetasViewHolder extends RecyclerView.ViewHolder {
     private TextView nombre;

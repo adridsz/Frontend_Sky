@@ -1,15 +1,18 @@
-package com.example.sky;
+package com.example.sky.ui.perfil;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,6 +20,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.sky.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,22 +30,26 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class PerfilCarpetas extends AppCompatActivity {
+
+public class PerfilFragment extends Fragment {
     private Context context;
     private RequestQueue requestQueue;
     private TextView carpetas;
     private TextView imagenes;
+    private RecyclerView recyclerView;
+
+    @Nullable
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_perfil, container, false);
 
-        context = this;
-        requestQueue = Volley.newRequestQueue(this);
-        carpetas = findViewById(R.id.cartel_carpetas);
-        imagenes = findViewById(R.id.cartel_imagenes);
+        context = requireActivity(); // Usamos requireActivity() en lugar de this para obtener el contexto del fragmento.
+        requestQueue = Volley.newRequestQueue(requireContext());
+        carpetas = view.findViewById(R.id.cartel_carpetas);
+        imagenes = view.findViewById(R.id.cartel_imagenes);
+        recyclerView = view.findViewById(R.id.recycler_perfil);
 
-        //esta hace q al pulsar en imagenes, se visualice el recycler de Imagenes
+        // Establecer clics en los textviews
         imagenes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +57,6 @@ public class PerfilCarpetas extends AppCompatActivity {
             }
         });
 
-        //esto hace q al pulsar en carpetas se visualice el recycler de Carpteas
         carpetas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,109 +64,43 @@ public class PerfilCarpetas extends AppCompatActivity {
             }
         });
 
+        return view;
     }
 
     private void showRecycler(int opc) {
-        RecyclerView recyclerView = findViewById(R.id.recycler_perfil);
-        Activity activity = this;
-
-        context = this;
-
-        switch (opc){
+        switch (opc) {
             case 1:
-                //Toast.makeText(this, "Prueba si el switch funciona", Toast.LENGTH_LONG).show();
                 JsonArrayRequest request1 = new JsonArrayRequest(
                         Request.Method.GET,
-                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json", //cambiar cnd este listo el json
+                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
                         null,
                         new Response.Listener<JSONArray>() {
                             @Override
                             public void onResponse(JSONArray response) {
-                                HashMap<String, String> imagenes = new HashMap<>();
                                 List<HashMap<String, String>> todasLasFotos = new ArrayList<>();
-                                /*int i=0;
-                                for (int i=0; i<response.length(); i++) {
-                                    try {
-                                        imagenes.put()
-                                        JSONObject imagen = response.getJSONObject(i);
-                                        ImagenesData data = new ImagenesData(imagen);
-                                        todasLasFotos.add(data);
-                                    }catch (JSONException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                                while (i<=response.length()) {
-                                    try {
-
-                                    } catch (JSONException e) {
-                                        throw new RuntimeException(e);
-                                    }
-
-
-                                }
-                                ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, activity);
-                                recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(activity));*/
-
                                 for (int i = 0; i < response.length(); i += 2) {
-                                    // Obtener datos para el primer elemento en la celda
                                     try {
                                         JSONObject imagen1 = response.getJSONObject(i);
                                         ImagenesData data1 = new ImagenesData(imagen1);
                                         HashMap<String, String> item1 = new HashMap<>();
                                         item1.put("clave1", data1.getImageUrl());
                                         todasLasFotos.add(item1);
-                                    } catch (JSONException e) {
-                                        throw new RuntimeException(e);
-                                    }
 
-                                    // Verificar si hay un segundo elemento en la celda
-                                    if (i + 1 < response.length()) {
-                                        // Obtener datos para el segundo elemento en la celda
-                                        try {
+                                        if (i + 1 < response.length()) {
                                             JSONObject imagen2 = response.getJSONObject(i + 1);
                                             ImagenesData data2 = new ImagenesData(imagen2);
                                             HashMap<String, String> item2 = new HashMap<>();
                                             item2.put("clave1", data2.getImageUrl());
                                             todasLasFotos.add(item2);
-                                        } catch (JSONException e) {
-                                            throw new RuntimeException(e);
                                         }
-
+                                    } catch (JSONException e) {
+                                        throw new RuntimeException(e);
                                     }
                                 }
-                            }
-                        },
-                        new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-
-                            }
-                        }
-                );
-                this.requestQueue.add(request1);
-                break;
-            case 2:
-                JsonArrayRequest request2 = new JsonArrayRequest(
-                        Request.Method.GET,
-                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json", //cambiarlo cnd este el json listo
-                        null,
-                        new Response.Listener<JSONArray>() {
-                            @Override
-                            public void onResponse(JSONArray response) {
-                                List<CarpetasData> todasLasCarpetas = new ArrayList<>();
-                                for (int i=0; i<response.length(); i++) {
-                                    try {
-                                        JSONObject carpeta = response.getJSONObject(i);
-                                        CarpetasData data = new CarpetasData(carpeta);
-                                        todasLasCarpetas.add(data);
-                                    }catch (JSONException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                                CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, activity);
+                               /* ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
                                 recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(activity));
+                                recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                            */
                             }
                         },
                         new Response.ErrorListener() {
@@ -169,7 +110,39 @@ public class PerfilCarpetas extends AppCompatActivity {
                             }
                         }
                 );
-                this.requestQueue.add(request2);
+                requestQueue.add(request1);
+                break;
+            case 2:
+                JsonArrayRequest request2 = new JsonArrayRequest(
+                        Request.Method.GET,
+                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                        null,
+                        new Response.Listener<JSONArray>() {
+                            @Override
+                            public void onResponse(JSONArray response) {
+                                List<CarpetasData> todasLasCarpetas = new ArrayList<>();
+                                for (int i = 0; i < response.length(); i++) {
+                                    try {
+                                        JSONObject carpeta = response.getJSONObject(i);
+                                        CarpetasData data = new CarpetasData(carpeta);
+                                        todasLasCarpetas.add(data);
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+                                CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, requireActivity());
+                                recyclerView.setAdapter(adapter);
+                                recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                            }
+                        },
+                        new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                );
+                requestQueue.add(request2);
                 break;
         }
     }

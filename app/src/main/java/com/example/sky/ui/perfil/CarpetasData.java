@@ -1,4 +1,4 @@
-package com.example.sky;
+package com.example.sky.ui.perfil;
 
 import org.json.JSONException;
 import org.json.JSONObject;

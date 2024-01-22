@@ -1,4 +1,4 @@
-package com.example.sky;
+package com.example.sky.ui.perfil;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.sky.R;
 
 import java.util.List;
 
