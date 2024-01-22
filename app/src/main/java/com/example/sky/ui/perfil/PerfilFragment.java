@@ -1,11 +1,13 @@
 package com.example.sky.ui.perfil;
 
+import android.adservices.topics.Topic;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +44,14 @@ public class PerfilFragment extends Fragment {
     private ImageView edit_carpetas;
     private ImageView edit_imagenes;
     private RecyclerView recyclerView;
+    private int idImagen = R.drawable.icono_carpeta;
+    private String nombreCarpeta;
+    private CarpetasAdapter carpetasAdapter;
+    private List<CarpetasData> todasLasCarpetas;
+
+    public PerfilFragment() {
+        todasLasCarpetas = new ArrayList<>();
+    }
 
     @Nullable
     @Override
@@ -87,6 +97,8 @@ public class PerfilFragment extends Fragment {
             }
         });
 
+        //inicialiazo el adapter con la lista actual de carpetas
+        carpetasAdapter = new CarpetasAdapter(todasLasCarpetas, getActivity());
         return view;
     }
 
@@ -144,11 +156,13 @@ public class PerfilFragment extends Fragment {
                         new Response.Listener<JSONArray>() {
                             @Override
                             public void onResponse(JSONArray response) {
-                                List<CarpetasData> todasLasCarpetas = new ArrayList<>();
+                                todasLasCarpetas.clear(); //limpio la lista de carpetas antes de agregar otra
+
                                 for (int i = 0; i < response.length(); i++) {
                                     try {
                                         JSONObject carpeta = response.getJSONObject(i);
-                                        CarpetasData data = new CarpetasData(carpeta);
+                                        nombreCarpeta = carpeta.getString("name");
+                                        CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
                                         todasLasCarpetas.add(data);
                                     } catch (JSONException e) {
                                         e.printStackTrace();
@@ -182,6 +196,7 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en crear carpeta", Toast.LENGTH_LONG).show();
+                        mostrarSegundoPopUp();
                     }
                 });
 
@@ -217,5 +232,26 @@ public class PerfilFragment extends Fragment {
                 builder2.show();
                 break;
         }
+    }
+
+    private void mostrarSegundoPopUp() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        builder.setMessage("Crear carpeta");
+
+        EditText editText = new EditText(requireContext());
+        builder.setView(editText);
+
+        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                String carpetaTitulo = editText.getText().toString();
+                Toast.makeText(requireContext(), "Creada carpeta: " + carpetaTitulo, Toast.LENGTH_LONG).show();
+                CarpetasData nuevaCarpeta = new CarpetasData(carpetaTitulo, idImagen);
+                carpetasAdapter.agregarCarpeta(nuevaCarpeta);
+                dialogInterface.dismiss();
+            }
+        });
+
+        builder.show();
     }
 }

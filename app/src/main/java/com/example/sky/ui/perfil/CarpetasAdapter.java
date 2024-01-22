@@ -39,4 +39,10 @@ public class CarpetasAdapter extends RecyclerView.Adapter<CarpetasViewHolder> {
     public int getItemCount() {
         return todasLasCarpetas.size();
     }
+
+    //permite q se agregue la carpeta a la lista
+    public void agregarCarpeta(CarpetasData nuevaCarpeta) {
+        todasLasCarpetas.add(nuevaCarpeta);
+        notifyDataSetChanged();
+    }
 }

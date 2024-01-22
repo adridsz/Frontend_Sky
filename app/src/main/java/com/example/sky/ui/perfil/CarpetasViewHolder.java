@@ -35,6 +35,7 @@ public class CarpetasViewHolder extends RecyclerView.ViewHolder {
 
     public void showData(CarpetasData data, Activity activity) {
         this.nombre.setText(data.getNombre());
+        this.carpeta.setImageResource(data.getImagenCarpeta());
         this.imagenes = data;
     }
 }
