@@ -1,6 +1,5 @@
 package com.example.sky.ui.perfil;
 
-import android.adservices.topics.Topic;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -32,7 +31,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 
@@ -48,6 +46,7 @@ public class PerfilFragment extends Fragment {
     private String nombreCarpeta;
     private CarpetasAdapter carpetasAdapter;
     private List<CarpetasData> todasLasCarpetas;
+    private List<ImagenesData> todasLasFotos;
 
     public PerfilFragment() {
         todasLasCarpetas = new ArrayList<>();
@@ -112,30 +111,27 @@ public class PerfilFragment extends Fragment {
                         new Response.Listener<JSONArray>() {
                             @Override
                             public void onResponse(JSONArray response) {
-                                List<HashMap<String, String>> todasLasFotos = new ArrayList<>();
+                                todasLasFotos = new ArrayList<>();
                                 for (int i = 0; i < response.length(); i += 2) {
                                     try {
                                         JSONObject imagen1 = response.getJSONObject(i);
-                                        ImagenesData data1 = new ImagenesData(imagen1);
-                                        HashMap<String, String> item1 = new HashMap<>();
-                                        item1.put("clave1", data1.getImageUrl());
-                                        todasLasFotos.add(item1);
+                                        String imagenurl1 = imagen1.getString("image_url");
 
-                                        if (i + 1 < response.length()) {
-                                            JSONObject imagen2 = response.getJSONObject(i + 1);
-                                            ImagenesData data2 = new ImagenesData(imagen2);
-                                            HashMap<String, String> item2 = new HashMap<>();
-                                            item2.put("clave1", data2.getImageUrl());
-                                            todasLasFotos.add(item2);
+                                        String imagenurl2 = null;
+                                        if (i+1 < response.length()){
+                                            JSONObject imagen2 = response.getJSONObject(i+1);
+                                            imagenurl2 = imagen2.getString("image_url");
                                         }
+
+                                        ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
+                                        todasLasFotos.add(data);
                                     } catch (JSONException e) {
                                         throw new RuntimeException(e);
                                     }
                                 }
-                            /*  ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
+                                ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
                                 recyclerView.setAdapter(adapter);
                                 recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
-                            */
                             }
 
                         },

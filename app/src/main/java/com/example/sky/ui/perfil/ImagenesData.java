@@ -7,13 +7,9 @@ public class ImagenesData {
     private String url1;
     private String url2;
 
-    public ImagenesData(JSONObject json) {
-        try{
-            this.url1 = json.getString("image_url"); //cambiar al nombre q le pongamos en el json
-            this.url2 = json.getString("image_url");
-        }catch (JSONException e) {
-            e.printStackTrace();
-        }
+    public ImagenesData(String imagenurl1, String imagenurl2) {
+        url1 = imagenurl1;
+        url2 = imagenurl2;
     }
 
     public String getImageUrl() {
