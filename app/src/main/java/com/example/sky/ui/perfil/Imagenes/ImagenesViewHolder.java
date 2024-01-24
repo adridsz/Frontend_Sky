@@ -1,4 +1,4 @@
-package com.example.sky.ui.perfil;
+package com.example.sky.ui.perfil.Imagenes;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.example.sky.R;
-import com.example.sky.ui.perfil.ImagenesData;
+import com.example.sky.ui.perfil.Imagenes.ImagenesData;
 
 public class ImagenesViewHolder extends RecyclerView.ViewHolder {
     private ImageView imagen;

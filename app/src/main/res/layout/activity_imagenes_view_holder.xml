@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".ui.perfil.ImagenesViewHolder">
+    tools:context=".ui.perfil.Imagenes.ImagenesViewHolder">
 
     <ImageView
         android:id="@+id/imagen"

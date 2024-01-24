@@ -1,4 +1,4 @@
-package com.example.sky.ui.perfil;
+package com.example.sky.ui.perfil.Imagenes;
 
 import android.app.Activity;
 import android.view.LayoutInflater;

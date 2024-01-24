@@ -2,6 +2,7 @@ package com.example.sky.ui.perfil;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +26,11 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.sky.R;
+import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
+import com.example.sky.ui.perfil.Carpetas.CarpetasData;
+import com.example.sky.ui.perfil.EliminarCarpeta.EliminarCarpetas;
+import com.example.sky.ui.perfil.Imagenes.ImagenesAdapter;
+import com.example.sky.ui.perfil.Imagenes.ImagenesData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -65,6 +71,9 @@ public class PerfilFragment extends Fragment {
         edit_carpetas = view.findViewById(R.id.icono_modificar_carpetas);
         edit_imagenes = view.findViewById(R.id.icono_modificar_imagenes);
 
+        //pongo para q por defecto al iniciar la pantalla se visualicen las imagenes
+        showRecycler(1);
+
         //establecer clics en los textviews
         imagenes.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,82 +113,82 @@ public class PerfilFragment extends Fragment {
     private void showRecycler(int opc) {
         switch (opc) {
             case 1:
-                JsonArrayRequest request1 = new JsonArrayRequest(
-                        Request.Method.GET,
-                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
-                        null,
-                        new Response.Listener<JSONArray>() {
-                            @Override
-                            public void onResponse(JSONArray response) {
-                                todasLasFotos = new ArrayList<>();
-                                for (int i = 0; i < response.length(); i += 2) {
-                                    try {
-                                        JSONObject imagen1 = response.getJSONObject(i);
-                                        String imagenurl1 = imagen1.getString("image_url");
+        JsonArrayRequest request1 = new JsonArrayRequest(
+                Request.Method.GET,
+                "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                null,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        todasLasFotos = new ArrayList<>();
+                        for (int i = 0; i < response.length(); i += 2) {
+                            try {
+                                JSONObject imagen1 = response.getJSONObject(i);
+                                String imagenurl1 = imagen1.getString("image_url");
 
-                                        String imagenurl2 = null;
-                                        if (i+1 < response.length()){
-                                            JSONObject imagen2 = response.getJSONObject(i+1);
-                                            imagenurl2 = imagen2.getString("image_url");
-                                        }
-
-                                        ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
-                                        todasLasFotos.add(data);
-                                    } catch (JSONException e) {
-                                        throw new RuntimeException(e);
-                                    }
+                                String imagenurl2 = null;
+                                if (i+1 < response.length()){
+                                    JSONObject imagen2 = response.getJSONObject(i+1);
+                                    imagenurl2 = imagen2.getString("image_url");
                                 }
-                                ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
-                                recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
-                            }
 
-                        },
-                        new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                                ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
+                                todasLasFotos.add(data);
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
                             }
                         }
-                );
-                requestQueue.add(request1);
-                break;
-            case 2:
-                JsonArrayRequest request2 = new JsonArrayRequest(
-                        Request.Method.GET,
-                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
-                        null,
-                        new Response.Listener<JSONArray>() {
-                            @Override
-                            public void onResponse(JSONArray response) {
-                                todasLasCarpetas.clear(); //limpio la lista de carpetas antes de agregar otra
+                        ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
+                        recyclerView.setAdapter(adapter);
+                        recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                    }
 
-                                for (int i = 0; i < response.length(); i++) {
-                                    try {
-                                        JSONObject carpeta = response.getJSONObject(i);
-                                        nombreCarpeta = carpeta.getString("name");
-                                        CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
-                                        todasLasCarpetas.add(data);
-                                    } catch (JSONException e) {
-                                        e.printStackTrace();
-                                    }
-                                }
-                                CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, requireActivity());
-                                recyclerView.setAdapter(adapter);
-                                recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
-                            }
-                        },
-                        new Response.ErrorListener() {
-                            @Override
-                            public void onErrorResponse(VolleyError error) {
-                                Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+        );
+        requestQueue.add(request1);
+        break;
+        case 2:
+        JsonArrayRequest request2 = new JsonArrayRequest(
+                Request.Method.GET,
+                "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                null,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        todasLasCarpetas.clear(); //limpio la lista de carpetas antes de agregar otra
+
+                        for (int i = 0; i < response.length(); i++) {
+                            try {
+                                JSONObject carpeta = response.getJSONObject(i);
+                                nombreCarpeta = carpeta.getString("name");
+                                CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
+                                todasLasCarpetas.add(data);
+                            } catch (JSONException e) {
+                                e.printStackTrace();
                             }
                         }
-                );
-                requestQueue.add(request2);
-                break;
-        }
+                        CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, requireActivity());
+                        recyclerView.setAdapter(adapter);
+                        recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+        );
+        requestQueue.add(request2);
+        break;
     }
+}
 
     private void mostrarPopUp(int opc) {
         switch (opc) {
@@ -192,7 +201,7 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en crear carpeta", Toast.LENGTH_LONG).show();
-                        mostrarSegundoPopUp();
+                        crearCarpeta();
                     }
                 });
 
@@ -201,6 +210,8 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en elimimar carpeta", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(context, EliminarCarpetas.class);
+                        context.startActivity(intent);
                     }
                 });
                 builder.show();
@@ -230,7 +241,7 @@ public class PerfilFragment extends Fragment {
         }
     }
 
-    private void mostrarSegundoPopUp() {
+    private void crearCarpeta() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         builder.setMessage("Crear carpeta");
 
