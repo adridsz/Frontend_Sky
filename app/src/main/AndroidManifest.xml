@@ -13,14 +13,26 @@
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
         <activity
-            android:name=".OtrosPerfilesActivity"
-            android:exported="true">
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".OtrosPerfilesActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".Buscador"
+            android:exported="false" />
+        <activity
+            android:name=".Drawer"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.Sky.NoActionBar" />
+      
     </application>
-
 </manifest>
