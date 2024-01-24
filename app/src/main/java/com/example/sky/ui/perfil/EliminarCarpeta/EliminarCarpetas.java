@@ -37,16 +37,16 @@ public class EliminarCarpetas extends AppCompatActivity {
     private String nombreCarpeta;
     private int idImagen = R.drawable.icono_carpeta;
     private List<CarpetasData> todasLasCarpetas;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eliminar_carpetas);
 
-        context = this;
+        context = this.getApplicationContext();
 
         cancelar = findViewById(R.id.cancelar);
         confirmar = findViewById(R.id.confirmar);
-
 
         confirmar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +101,6 @@ public class EliminarCarpetas extends AppCompatActivity {
                     }
                 }
         );
-        this.requestQueue.add(request);
+        //this.requestQueue.add(request);
     }
 }

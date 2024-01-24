@@ -210,10 +210,12 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en elimimar carpeta", Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(context, EliminarCarpetas.class);
-                        context.startActivity(intent);
+
+                        Intent intent = new Intent(getContext(), EliminarCarpetas.class);
+                        startActivity(intent);
                     }
                 });
+
                 builder.show();
                 break;
 
@@ -236,6 +238,7 @@ public class PerfilFragment extends Fragment {
                         Toast.makeText(context, "Has clicado en eliminar foto", Toast.LENGTH_LONG).show();
                     }
                 });
+
                 builder2.show();
                 break;
         }
