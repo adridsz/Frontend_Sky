@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".EditarCarpetaFragment">
 
     <ImageView
         android:id="@+id/my_imageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
         android:background="@android:color/transparent"
         android:src="@drawable/blackimg"/>
 
@@ -18,10 +19,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Imágenes"
-        app:layout_constraintTop_toBottomOf="@+id/my_imageview"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_below="@id/my_imageview"
+        android:layout_centerHorizontal="true"
         />
 
+    <Button
+        android:id="@+id/btnEditarCarpeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar carpeta"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
 
-</FrameLayout>
+</RelativeLayout>
