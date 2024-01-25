@@ -10,21 +10,10 @@
         android:id="@+id/casilla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:layout_marginStart="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
-
-    <ImageView
-        android:id="@+id/carpeta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/icono_carpeta"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toEndOf="@id/casilla"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
 
     <TextView
         android:id="@+id/nombre"
@@ -34,6 +23,6 @@
         android:layout_marginStart="5dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@id/carpeta" />
+        app:layout_constraintStart_toEndOf="@id/casilla" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

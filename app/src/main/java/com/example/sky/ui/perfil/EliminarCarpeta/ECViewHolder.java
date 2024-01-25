@@ -15,18 +15,15 @@ import com.example.sky.ui.perfil.Carpetas.CarpetasData;
 
 public class ECViewHolder extends RecyclerView.ViewHolder {
     private TextView nombre;
-    private ImageView carpeta;
     private CarpetasData imagenes;
     public ECViewHolder(@NonNull View itemView) {
         super(itemView);
 
-        carpeta = (ImageView) itemView.findViewById(R.id.carpeta);
         nombre = (TextView) itemView.findViewById(R.id.nombre);
     }
 
     public void showData(CarpetasData data, Activity activity) {
         this.nombre.setText(data.getNombre());
-        this.carpeta.setImageResource(data.getImagenCarpeta());
         this.imagenes = data;
     }
 

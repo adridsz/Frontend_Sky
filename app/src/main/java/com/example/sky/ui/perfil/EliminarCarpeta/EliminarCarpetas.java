@@ -18,6 +18,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
 import com.example.sky.R;
 import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
 import com.example.sky.ui.perfil.Carpetas.CarpetasData;
@@ -44,6 +45,7 @@ public class EliminarCarpetas extends AppCompatActivity {
         setContentView(R.layout.activity_eliminar_carpetas);
 
         context = this.getApplicationContext();
+        requestQueue = Volley.newRequestQueue(context);
 
         cancelar = findViewById(R.id.cancelar);
         confirmar = findViewById(R.id.confirmar);
@@ -101,6 +103,6 @@ public class EliminarCarpetas extends AppCompatActivity {
                     }
                 }
         );
-        //this.requestQueue.add(request);
+        this.requestQueue.add(request);
     }
 }
