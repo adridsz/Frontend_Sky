@@ -21,14 +21,13 @@ public class ModificarInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_modificar_info);
 
-        //Para finalizar, con un .finish(), rollo un botón que te vuelva para atrás
-
+        //Obtenemos las vistas de los botones
         botConf = findViewById(R.id.botConfirm);
         botModIma = findViewById(R.id.lapiz);
 
 
-        //PROVISIONAL: que vuelva para atrás
-
+        //PROVISIONAL: al presionar el botón confirmar, la actividad vuelve para atrás sin más,
+        //sin aplicar nada
         botConf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,6 +35,9 @@ public class ModificarInfo extends AppCompatActivity {
             }
         });
 
+
+        //Al pulsar en el botón de modificar imagen (el lápiz), le decimos que
+        //muestre un pop up
         botModIma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,26 +47,30 @@ public class ModificarInfo extends AppCompatActivity {
 
     }
 
+    //En este método creamos y definimos el pop up
     private void mostrarPopUp() {
-        //Creamos el AlertDialog
+        //Creamos el AlertDialog (pop up)
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
+        //Le decimos el mensaje que mostrar
         builder.setMessage("Introduce el link para la nueva foto de perfil");
 
-        //Esto permite que el usuario introduzca el link de la nueva foto de perfil
+        //Esto permite que el usuario introduzca el link de la nueva foto de perfil,
+        //creando un EditText
         EditText editText = new EditText(this);
+        //y diciendo que se muestre
         builder.setView(editText);
         builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                    //de momento, cerramos el pop up sin más
+                    //Si pulsamos en Aceptar, de momento, cerramos el pop up sin más
                 }
         });
 
         builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                //Se cierra el pop up sin más
+                //Si pulsamos en Cancelar se cierra el pop up sin más
             }
         });
             AlertDialog dialog = builder.create();
