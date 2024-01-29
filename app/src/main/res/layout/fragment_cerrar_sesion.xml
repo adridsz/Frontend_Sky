@@ -43,14 +43,6 @@
             android:layout_marginTop="20dp"
             />
 
-        <Button
-            android:id="@+id/btnCancelar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Cancelar"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            />
     </LinearLayout>
 
 </LinearLayout>
