@@ -27,10 +27,5 @@ public class ECViewHolder extends RecyclerView.ViewHolder {
         this.imagenes = data;
     }
 
-    public void bind(CarpetasData carpetasData, int position, ECAdapter adapter) {
-        itemView.setOnClickListener(v -> {
-            adapter.setPosicionSeleccionada(position);
-        });
-    }
 
 }

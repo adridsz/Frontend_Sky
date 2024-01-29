@@ -257,7 +257,7 @@ public class PerfilFragment extends Fragment {
                 String carpetaTitulo = editText.getText().toString();
                 Toast.makeText(requireContext(), "Creada carpeta: " + carpetaTitulo, Toast.LENGTH_LONG).show();
                 CarpetasData nuevaCarpeta = new CarpetasData(carpetaTitulo, idImagen);
-                carpetasAdapter.agregarCarpeta(nuevaCarpeta);
+                todasLasCarpetas.add(nuevaCarpeta);
                 dialogInterface.dismiss();
             }
         });

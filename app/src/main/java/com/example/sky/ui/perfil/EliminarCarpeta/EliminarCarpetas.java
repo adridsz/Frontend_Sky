@@ -39,6 +39,7 @@ public class EliminarCarpetas extends AppCompatActivity {
     private String nombreCarpeta;
     private int idImagen = R.drawable.icono_carpeta;
     private List<CarpetasData> todasLasCarpetas;
+    private ECAdapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,7 +97,7 @@ public class EliminarCarpetas extends AppCompatActivity {
                                 e.printStackTrace();
                             }
                         }
-                        ECAdapter adapter = new ECAdapter(todasLasCarpetas, activity);
+                        adapter = new ECAdapter(todasLasCarpetas, activity);
                         recyclerView.setAdapter(adapter);
                         recyclerView.setLayoutManager(new LinearLayoutManager(activity));
                     }
@@ -118,7 +119,10 @@ public class EliminarCarpetas extends AppCompatActivity {
         builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
+
+                adapter.eliminarCarpetaSeleccionada();
+
+                finish();
             }
         });
 
