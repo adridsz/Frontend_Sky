@@ -38,7 +38,7 @@ public class EliminarCarpetas extends AppCompatActivity {
     private TextView cancelar;
     private String nombreCarpeta;
     private int idImagen = R.drawable.icono_carpeta;
-    private List<CarpetasData> todasLasCarpetas;
+    private List<ECData> todasLasCarpetas;
     private ECAdapter adapter;
 
     @Override
@@ -91,7 +91,7 @@ public class EliminarCarpetas extends AppCompatActivity {
                             try{
                                 JSONObject carpeta = response.getJSONObject(i);
                                 nombreCarpeta = carpeta.getString("name");
-                                CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
+                                ECData data = new ECData(nombreCarpeta);
                                 todasLasCarpetas.add(data);
                             }catch (JSONException e){
                                 e.printStackTrace();
@@ -120,7 +120,7 @@ public class EliminarCarpetas extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
 
-                adapter.eliminarCarpetaSeleccionada();
+
 
                 finish();
             }

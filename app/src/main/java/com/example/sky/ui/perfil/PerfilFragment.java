@@ -202,6 +202,9 @@ public class PerfilFragment extends Fragment {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en crear carpeta", Toast.LENGTH_LONG).show();
                         crearCarpeta();
+
+                        //onResume();
+                        //List<ECData> selectedSongs = adapter.getSelected();
                     }
                 });
 

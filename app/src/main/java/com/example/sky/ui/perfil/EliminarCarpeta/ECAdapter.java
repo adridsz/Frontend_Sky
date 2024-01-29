@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,13 +19,13 @@ import java.util.List;
 
 public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
     private Activity activity;
-    private List<CarpetasData> todasLasCarpetas;
-    private List<Boolean> carpetasSeleccionadas;  //lista para almacenar el estado de selección de cada carpeta
+    private List<ECData> todasLasCarpetas;
+    //private List<Boolean> carpetasSeleccionadas;  //lista para almacenar el estado de selección de cada carpeta
 
-    public ECAdapter(List<CarpetasData> todasLasCarpetas, Activity activity) {
+    public ECAdapter(List<ECData> todasLasCarpetas, Activity activity) {
         this.todasLasCarpetas = todasLasCarpetas;
         this.activity = activity;
-        this.carpetasSeleccionadas = new ArrayList<>(Collections.nCopies(todasLasCarpetas.size(), false));
+        //this.carpetasSeleccionadas = new ArrayList<>(Collections.nCopies(todasLasCarpetas.size(), false));
     }
     @NonNull
     @Override
@@ -36,8 +37,11 @@ public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ECViewHolder holder, int position) {
-        CarpetasData dataToBeRendered = todasLasCarpetas.get(position);
+        ECData dataToBeRendered = todasLasCarpetas.get(position);
         holder.showData(dataToBeRendered, activity);
+
+        holder.checkBox.setChecked(todasLasCarpetas.get(holder.getAdapterPosition()).isChecked());
+
     }
 
     @Override
@@ -46,7 +50,7 @@ public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
     }
 
 
-    public void eliminarCarpetaSeleccionada() {
+    /*public void eliminarCarpetaSeleccionada() {
         for (int i = carpetasSeleccionadas.size() - 1; i >= 0; i--) {
             if (carpetasSeleccionadas.get(i)) {
                 todasLasCarpetas.remove(i);
@@ -54,5 +58,15 @@ public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
             }
         }
         notifyDataSetChanged();
+    }*/
+
+    public List<ECData> getSelected(){
+        List<ECData> carpetasSeleccionadas = new ArrayList<>();
+        for (ECData carpeta : todasLasCarpetas) {
+            if (carpeta.isChecked()) {
+                carpetasSeleccionadas.add(carpeta);
+            }
+        }
+        return carpetasSeleccionadas;
     }
 }
