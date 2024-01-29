@@ -1,5 +1,6 @@
 package com.example.sky.ui.perfil;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,6 +13,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -53,7 +58,9 @@ public class PerfilFragment extends Fragment {
     private CarpetasAdapter carpetasAdapter;
     private List<CarpetasData> todasLasCarpetas;
     private List<ImagenesData> todasLasFotos;
+    private static final int CODIGO_PARA_ELIMINAR_CARPETAS = 1;
 
+    //esto es el constructor del fragment
     public PerfilFragment() {
         todasLasCarpetas = new ArrayList<>();
     }
@@ -113,80 +120,80 @@ public class PerfilFragment extends Fragment {
     private void showRecycler(int opc) {
         switch (opc) {
             case 1:
-        JsonArrayRequest request1 = new JsonArrayRequest(
-                Request.Method.GET,
-                "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
-                null,
-                new Response.Listener<JSONArray>() {
-                    @Override
-                    public void onResponse(JSONArray response) {
-                        todasLasFotos = new ArrayList<>();
-                        for (int i = 0; i < response.length(); i += 2) {
-                            try {
-                                JSONObject imagen1 = response.getJSONObject(i);
-                                String imagenurl1 = imagen1.getString("image_url");
+                JsonArrayRequest request1 = new JsonArrayRequest(
+                    Request.Method.GET,
+                    "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                    null,
+                    new Response.Listener<JSONArray>() {
+                        @Override
+                        public void onResponse(JSONArray response) {
+                            todasLasFotos = new ArrayList<>();
+                            for (int i = 0; i < response.length(); i += 2) {
+                                try {
+                                    JSONObject imagen1 = response.getJSONObject(i);
+                                    String imagenurl1 = imagen1.getString("image_url");
 
-                                String imagenurl2 = null;
-                                if (i+1 < response.length()){
-                                    JSONObject imagen2 = response.getJSONObject(i+1);
-                                    imagenurl2 = imagen2.getString("image_url");
+                                    String imagenurl2 = null;
+                                    if (i+1 < response.length()){
+                                        JSONObject imagen2 = response.getJSONObject(i+1);
+                                        imagenurl2 = imagen2.getString("image_url");
+                                    }
+
+                                    ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
+                                    todasLasFotos.add(data);
+                                } catch (JSONException e) {
+                                    throw new RuntimeException(e);
                                 }
-
-                                ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
-                                todasLasFotos.add(data);
-                            } catch (JSONException e) {
-                                throw new RuntimeException(e);
                             }
+                            ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
+                            recyclerView.setAdapter(adapter);
+                            recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
                         }
-                        ImagenesAdapter adapter = new ImagenesAdapter(todasLasFotos, requireActivity());
-                        recyclerView.setAdapter(adapter);
-                        recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
-                    }
 
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
                     }
-                }
-        );
-        requestQueue.add(request1);
-        break;
-        case 2:
-        JsonArrayRequest request2 = new JsonArrayRequest(
-                Request.Method.GET,
-                "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
-                null,
-                new Response.Listener<JSONArray>() {
-                    @Override
-                    public void onResponse(JSONArray response) {
-                        todasLasCarpetas.clear(); //limpio la lista de carpetas antes de agregar otra
+            );
+            requestQueue.add(request1);
+            break;
+            case 2:
+            JsonArrayRequest request2 = new JsonArrayRequest(
+                    Request.Method.GET,
+                    "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                    null,
+                    new Response.Listener<JSONArray>() {
+                        @Override
+                        public void onResponse(JSONArray response) {
+                            todasLasCarpetas.clear(); //limpio la lista de carpetas antes de agregar otra
 
-                        for (int i = 0; i < response.length(); i++) {
-                            try {
-                                JSONObject carpeta = response.getJSONObject(i);
-                                nombreCarpeta = carpeta.getString("name");
-                                CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
-                                todasLasCarpetas.add(data);
-                            } catch (JSONException e) {
-                                e.printStackTrace();
+                            for (int i = 0; i < response.length(); i++) {
+                                try {
+                                    JSONObject carpeta = response.getJSONObject(i);
+                                    nombreCarpeta = carpeta.getString("name");
+                                    CarpetasData data = new CarpetasData(nombreCarpeta, idImagen);
+                                    todasLasCarpetas.add(data);
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
                             }
+                            CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, requireActivity());
+                            recyclerView.setAdapter(adapter);
+                            recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
                         }
-                        CarpetasAdapter adapter = new CarpetasAdapter(todasLasCarpetas, requireActivity());
-                        recyclerView.setAdapter(adapter);
-                        recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                    },
+                    new Response.ErrorListener() {
+                        @Override
+                        public void onErrorResponse(VolleyError error) {
+                            Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                        }
                     }
-                },
-                new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                }
-        );
-        requestQueue.add(request2);
-        break;
+            );
+            requestQueue.add(request2);
+            break;
     }
 }
 
@@ -202,9 +209,6 @@ public class PerfilFragment extends Fragment {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en crear carpeta", Toast.LENGTH_LONG).show();
                         crearCarpeta();
-
-                        //onResume();
-                        //List<ECData> selectedSongs = adapter.getSelected();
                     }
                 });
 
@@ -215,7 +219,7 @@ public class PerfilFragment extends Fragment {
                         Toast.makeText(context, "Has clicado en elimimar carpeta", Toast.LENGTH_LONG).show();
 
                         Intent intent = new Intent(getContext(), EliminarCarpetas.class);
-                        startActivity(intent);
+                        startActivityForResult(intent, CODIGO_PARA_ELIMINAR_CARPETAS); //esto sirve para q al iniciar la actividad, el programa ya este esperando que le devuelva algo
                     }
                 });
 
@@ -266,5 +270,14 @@ public class PerfilFragment extends Fragment {
         });
 
         builder.show();
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == CODIGO_PARA_ELIMINAR_CARPETAS && resultCode == Activity.RESULT_OK) {
+            Toast.makeText(context, "Aqui se ve la lista sin los borrados", Toast.LENGTH_LONG).show();
+        }
     }
 }

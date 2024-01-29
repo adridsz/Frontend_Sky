@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -40,8 +41,16 @@ public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
         ECData dataToBeRendered = todasLasCarpetas.get(position);
         holder.showData(dataToBeRendered, activity);
 
+        //esto se encarga de leer si el usuario selecciono o no la casilla
         holder.checkBox.setChecked(todasLasCarpetas.get(holder.getAdapterPosition()).isChecked());
 
+        //esto actualiza el estado del isChecked en caso de q el usuario seleccionara la casilla
+        holder.checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                dataToBeRendered.setChecked(isChecked);
+            }
+        });
     }
 
     @Override
