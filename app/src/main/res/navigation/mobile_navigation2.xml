@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.sky.ui.perfil.PerfilFragment"
-        android:label="Perfil"
-        tools:layout="@layout/fragment_perfil" />
+        android:name="com.example.sky.ui.inicio.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.sky.ui.configuracion.ConfiguracionFragment"
-        android:label="Configuración"
-        tools:layout="@layout/fragment_configuracion" />
+        android:name="com.example.sky.ui.perfil.PerfilFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
 
     <fragment
         android:id="@+id/nav_slideshow"

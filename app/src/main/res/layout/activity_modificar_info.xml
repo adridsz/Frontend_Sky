@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModificarInfo">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/lapiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/foto_perfil"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/icono_lapiz"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/icono_perfil"
+        android:id="@+id/foto_perfil"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/botConfirm"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Nombre de usuario:"
+        android:id="@+id/titnomus"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titnomus"
+        android:layout_marginStart="20dp"
+        android:id="@+id/editnomus"
+        android:hint="Ej. pepito grillo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/editnomus"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Descripción del perfil:"
+        android:id="@+id/titdescrip"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titdescrip"
+        android:layout_marginStart="20dp"
+        android:id="@+id/edidescrip"
+        android:hint="Tengo x años me gusta ...."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/edidescrip"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:text="Contraseña:"
+        android:id="@+id/titcontrasena"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titcontrasena"
+        android:layout_marginStart="20dp"
+        android:id="@+id/edicontrasena"
+        android:hint="*****"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/edicontrasena"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:text="Correo:"
+        android:id="@+id/correo"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/correo"
+        android:layout_marginStart="20dp"
+        android:id="@+id/edicorreo"
+        android:hint="Ej pgrillo@gmail.com"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/botConfirm"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
