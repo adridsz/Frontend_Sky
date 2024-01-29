@@ -13,6 +13,8 @@ import com.example.sky.ui.perfil.Carpetas.CarpetasData;
 
 import java.util.List;
 
+
+//HAY QUE CAMBIAR EL CODIGO PARA CHECKBUTTON
 public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
     private Activity activity;
     private List<CarpetasData> todasLasCarpetas;

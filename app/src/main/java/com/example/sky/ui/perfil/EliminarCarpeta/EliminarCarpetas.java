@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,24 +48,28 @@ public class EliminarCarpetas extends AppCompatActivity {
         context = this.getApplicationContext();
         requestQueue = Volley.newRequestQueue(context);
 
-        cancelar = findViewById(R.id.cancelar);
-        confirmar = findViewById(R.id.confirmar);
+        showRecyclerView();
 
+        cancelar = (TextView) findViewById(R.id.cancelar);
+        confirmar = (TextView) findViewById(R.id.confirmar);
+
+        //NO ENTRA EN ESTE METODO
         confirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, "CLiacaste", Toast.LENGTH_LONG).show();
+                Toast.makeText(context, "Probar si entra", Toast.LENGTH_LONG).show();
+                mostrarPopUp(); //si comento esta linea funciona, con ella no
             }
         });
 
         cancelar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Toast.makeText(context, "Probar si entra", Toast.LENGTH_LONG).show();
                 finish(); //esto hace que vuelva a la pantalla anterior
             }
         });
 
-        showRecyclerView();
 
     }
 
@@ -104,5 +109,26 @@ public class EliminarCarpetas extends AppCompatActivity {
                 }
         );
         this.requestQueue.add(request);
+    }
+
+    private void mostrarPopUp() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Seguro que quiere eliminar");
+
+        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.dismiss();
+            }
+        });
+
+        builder.show();
     }
 }

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     tools:context=".ui.perfil.EliminarCarpeta.ECViewHolder">
 
-    <RadioButton
+    <CheckBox
         android:id="@+id/casilla"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
