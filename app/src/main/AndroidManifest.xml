@@ -21,6 +21,21 @@
             android:name=".ui.perfil.EliminarCarpeta.EliminarCarpetas"
             android:exported="false" />
         <activity
+            android:name=".ModificarFuentes"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarTemas"
+            android:exported="false" />
+        <activity
+            android:name=".Ajustes"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Buscador"
+            android:exported="false" />
+        <activity
             android:name=".Drawer"
             android:exported="false"
             android:label="@string/title_activity_drawer"
@@ -41,5 +56,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

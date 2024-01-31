@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.perfil.PerfilFragment" >
+    tools:context=".ui.inicio.InicioFragment" >
 
     <ImageView
         android:id="@+id/imagen_perfil"
@@ -87,4 +87,18 @@
         app:layout_constraintTop_toBottomOf="@id/icono_modificar_imagenes"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/lapiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/icono_lapiz" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

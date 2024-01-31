@@ -3,6 +3,7 @@ package com.example.sky.ui.perfil;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -42,6 +43,10 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.sky.ModificarInfo;
+import com.example.sky.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 
 public class PerfilFragment extends Fragment {
     private Context context;
@@ -50,6 +55,7 @@ public class PerfilFragment extends Fragment {
     private TextView imagenes;
     private ImageView edit_carpetas;
     private ImageView edit_imagenes;
+    private FloatingActionButton editar;
     private RecyclerView recyclerView;
     private int idImagen = R.drawable.icono_carpeta;
     private String nombreCarpeta;
@@ -57,11 +63,10 @@ public class PerfilFragment extends Fragment {
     private List<CarpetasData> todasLasCarpetas;
     private List<ImagenesData> todasLasFotos;
     private static final int CODIGO_PARA_ELIMINAR_CARPETAS = 1;
-
-
     private List<ECData> carpetasEliminar = new ArrayList<>();
     private List<CarpetasData> carpetasNoEliminadas = new ArrayList<>();
     private ECAdapter ecadapter;
+
 
     //esto es el constructor del fragment
     public PerfilFragment() {
@@ -324,6 +329,7 @@ public class PerfilFragment extends Fragment {
         }
     }
 
+    //esto crea una lista de tipo CarpetasData con las carpetas no seleccionadas en EliminarCarpetas (importada del adapter)
     private List<CarpetasData> llenarLista() {
         List<ECData> carpetasNoBorradas = ecadapter.getNotSelected();
 
@@ -335,6 +341,8 @@ public class PerfilFragment extends Fragment {
 
         return carpetasNoEliminadas;
     }
+
+    //esto crea una lista de tipo ECData q tiene la misma info q todasLasCarpetas
     private List<ECData> llenarList() {
 
         for(CarpetasData carpeta : todasLasCarpetas) {
@@ -344,6 +352,22 @@ public class PerfilFragment extends Fragment {
         }
 
         return carpetasEliminar;
+    }
+
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        editar = view.findViewById(R.id.lapiz);
+
+        editar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), ModificarInfo.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
 }
