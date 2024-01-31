@@ -59,23 +59,38 @@ public class ECAdapter extends RecyclerView.Adapter<ECViewHolder> {
     }
 
 
-    /*public void eliminarCarpetaSeleccionada() {
-        for (int i = carpetasSeleccionadas.size() - 1; i >= 0; i--) {
-            if (carpetasSeleccionadas.get(i)) {
-                todasLasCarpetas.remove(i);
-                carpetasSeleccionadas.remove(i);
-            }
-        }
-        notifyDataSetChanged();
-    }*/
 
     public List<ECData> getSelected(){
         List<ECData> carpetasSeleccionadas = new ArrayList<>();
+
         for (ECData carpeta : todasLasCarpetas) {
             if (carpeta.isChecked()) {
                 carpetasSeleccionadas.add(carpeta);
             }
         }
         return carpetasSeleccionadas;
+    }
+
+    public List<ECData> getNotSelected() {
+        List<ECData> carpetasNoSeleccionadas = new ArrayList<>();
+
+        for (ECData carpeta : todasLasCarpetas) {
+            if (!carpeta.isChecked()) {
+                carpetasNoSeleccionadas.add(carpeta);
+            }
+        }
+        return carpetasNoSeleccionadas;
+    }
+
+    public void eliminarCarpetas(){
+        List<ECData> carpetasSeleccionadas = getSelected();
+
+        // Aquí implementa la lógica para eliminar las carpetas seleccionadas
+        for (ECData carpeta : carpetasSeleccionadas) {
+            todasLasCarpetas.remove(carpeta);
+        }
+
+        // Notifica al adaptador que los datos han cambiado
+        notifyDataSetChanged();
     }
 }

@@ -13,10 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.result.ActivityResult;
-import androidx.activity.result.ActivityResultCallback;
-import androidx.activity.result.ActivityResultLauncher;
-import androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -33,6 +29,8 @@ import com.android.volley.toolbox.Volley;
 import com.example.sky.R;
 import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
 import com.example.sky.ui.perfil.Carpetas.CarpetasData;
+import com.example.sky.ui.perfil.EliminarCarpeta.ECAdapter;
+import com.example.sky.ui.perfil.EliminarCarpeta.ECData;
 import com.example.sky.ui.perfil.EliminarCarpeta.EliminarCarpetas;
 import com.example.sky.ui.perfil.Imagenes.ImagenesAdapter;
 import com.example.sky.ui.perfil.Imagenes.ImagenesData;
@@ -60,6 +58,11 @@ public class PerfilFragment extends Fragment {
     private List<ImagenesData> todasLasFotos;
     private static final int CODIGO_PARA_ELIMINAR_CARPETAS = 1;
 
+
+    private List<ECData> carpetasEliminar = new ArrayList<>();
+    private List<CarpetasData> carpetasNoEliminadas = new ArrayList<>();
+    private ECAdapter ecadapter;
+
     //esto es el constructor del fragment
     public PerfilFragment() {
         todasLasCarpetas = new ArrayList<>();
@@ -80,6 +83,9 @@ public class PerfilFragment extends Fragment {
 
         //pongo para q por defecto al iniciar la pantalla se visualicen las imagenes
         showRecycler(1);
+
+        //lleno la lista con las carpetas a eliminar
+        llenarList();
 
         //establecer clics en los textviews
         imagenes.setOnClickListener(new View.OnClickListener() {
@@ -114,6 +120,11 @@ public class PerfilFragment extends Fragment {
 
         //inicialiazo el adapter con la lista actual de carpetas
         carpetasAdapter = new CarpetasAdapter(todasLasCarpetas, getActivity());
+
+        //inicializo ecadapter son la lista de carpetas
+        ecadapter = new ECAdapter(carpetasEliminar,getActivity());
+
+
         return view;
     }
 
@@ -194,6 +205,32 @@ public class PerfilFragment extends Fragment {
             );
             requestQueue.add(request2);
             break;
+            case 3:
+                JsonArrayRequest request3 = new JsonArrayRequest(
+                        Request.Method.GET,
+                        "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                        null,
+                        new Response.Listener<JSONArray>() {
+                            @Override
+                            public void onResponse(JSONArray response) {
+                                Toast.makeText(context, "Prueba para ver si entra al recycler", Toast.LENGTH_LONG).show();
+
+                                llenarLista();
+
+                                CarpetasAdapter adapter = new CarpetasAdapter(carpetasNoEliminadas, getActivity());
+                                recyclerView.setAdapter(adapter);
+                                recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+                            }
+                        },
+                        new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                Toast.makeText(context,"Error en el 3 recycler -> " + error.getMessage(), Toast.LENGTH_LONG).show();
+                            }
+                        }
+                );
+                requestQueue.add(request3);
+                break;
     }
 }
 
@@ -272,12 +309,41 @@ public class PerfilFragment extends Fragment {
         builder.show();
     }
 
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == CODIGO_PARA_ELIMINAR_CARPETAS && resultCode == Activity.RESULT_OK) {
             Toast.makeText(context, "Aqui se ve la lista sin los borrados", Toast.LENGTH_LONG).show();
+
+            showRecycler(3);
+
+        } else {
+            Toast.makeText(context, "Algo fue mal volviendo al fragment", Toast.LENGTH_LONG).show();
         }
     }
+
+    private List<CarpetasData> llenarLista() {
+        List<ECData> carpetasNoBorradas = ecadapter.getNotSelected();
+
+        for (ECData carpeta : carpetasNoBorradas) {
+            String nombre_carpeta = carpeta.getNombre();
+            CarpetasData NC = new CarpetasData(nombre_carpeta, idImagen);
+            carpetasNoEliminadas.add(NC);
+        }
+
+        return carpetasNoEliminadas;
+    }
+    private List<ECData> llenarList() {
+
+        for(CarpetasData carpeta : todasLasCarpetas) {
+            String nombre_carpeta = carpeta.getNombre();
+            ECData data = new ECData(nombre_carpeta);
+            carpetasEliminar.add(data);
+        }
+
+        return carpetasEliminar;
+    }
+
 }

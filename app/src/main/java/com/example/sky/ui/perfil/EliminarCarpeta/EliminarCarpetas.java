@@ -121,7 +121,7 @@ public class EliminarCarpetas extends AppCompatActivity {
         builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                List<ECData> carpetasSeleccionadas = adapter.getSelected();
+                /*List<ECData> carpetasSeleccionadas = adapter.getSelected();
 
                 // Aquí implementa la lógica para eliminar las carpetas seleccionadas
                 for (ECData carpeta : carpetasSeleccionadas) {
@@ -129,10 +129,13 @@ public class EliminarCarpetas extends AppCompatActivity {
                 }
 
                 // Notifica al adaptador que los datos han cambiado
-                adapter.notifyDataSetChanged();
+                adapter.notifyDataSetChanged();*/
+
+                adapter.eliminarCarpetas();
+
 
                 setResult(Activity.RESULT_OK); //esto devuelve a PerfilFragment q la operacion fue exitosa
-                //finish();
+                finish(); //comentando esta linea se puede ver q si se dejan de visualizar las seleccionadas
             }
         });
 
