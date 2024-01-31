@@ -307,6 +307,7 @@ public class PerfilFragment extends Fragment {
                 Toast.makeText(requireContext(), "Creada carpeta: " + carpetaTitulo, Toast.LENGTH_LONG).show();
                 CarpetasData nuevaCarpeta = new CarpetasData(carpetaTitulo, idImagen);
                 todasLasCarpetas.add(nuevaCarpeta);
+                carpetasNoEliminadas.add(nuevaCarpeta);
                 dialogInterface.dismiss();
             }
         });

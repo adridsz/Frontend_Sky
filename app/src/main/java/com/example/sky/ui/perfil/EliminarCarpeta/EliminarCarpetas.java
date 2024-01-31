@@ -54,12 +54,11 @@ public class EliminarCarpetas extends AppCompatActivity {
         cancelar = (TextView) findViewById(R.id.cancelar);
         confirmar = (TextView) findViewById(R.id.confirmar);
 
-        //NO ENTRA EN ESTE METODO
         confirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Toast.makeText(context, "Probar si entra", Toast.LENGTH_LONG).show();
-                mostrarPopUp(); //si comento esta linea funciona, con ella no
+                mostrarPopUp();
             }
         });
 
