@@ -62,6 +62,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(this, "Bienvenido", Toast.LENGTH_LONG).show();
                     startActivity(new Intent(LoginActivity.this, Drawer.class));
                     error = false;
+                    finish();
                 })
                 .addOnFailureListener(this, e -> {
                     if (error == true) {

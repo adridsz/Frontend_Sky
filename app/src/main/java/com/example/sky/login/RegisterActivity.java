@@ -95,6 +95,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     // Si la tarea de la base de datos es exitosa, muestra un mensaje de éxito y inicia la actividad LoginActivity
                                     Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show();
                                     startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                                    finish();
                                 })
                                 .addOnFailureListener(this, e -> {
                                     // Si el programa nos falla con una excepción, la imprime y mostraremos un mensaje de error
