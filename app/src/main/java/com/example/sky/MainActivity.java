@@ -7,6 +7,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.sky.login.LoginActivity;
+import com.example.sky.login.RegisterActivity;
+
 public class MainActivity extends AppCompatActivity {
     private Context context = this;
 
@@ -16,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Provisional
-        Intent myIntent = new Intent(context, Drawer.class);
+        Intent myIntent = new Intent(context, LoginActivity.class);
         context.startActivity(myIntent);
 
     }
