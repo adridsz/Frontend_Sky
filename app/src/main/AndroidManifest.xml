@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,21 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
-        <activity android:name=".login.LoginActivity"
-            android:exported="false"/>
-        <activity android:name=".login.RegisterActivity"
-            android:exported="false"/>
         <activity
             android:name=".ModificarFuentes"
             android:exported="false" />
         <activity
             android:name=".ModificarTemas"
             android:exported="false" />
-
+        <activity
+            android:name=".Ajustes"
+            android:exported="false" />
         <activity
             android:name=".ModificarInfo"
             android:exported="false" />
-
+        <activity
+            android:name=".Buscador"
+            android:exported="false" />
         <activity
             android:name=".Drawer"
             android:exported="false"
