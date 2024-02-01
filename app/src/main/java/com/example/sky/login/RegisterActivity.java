@@ -28,7 +28,7 @@ public class RegisterActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
 
     // Método onCreate que se ejecuta al crear la actividad
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); // Llamada al método onCreate de la clase padre
@@ -42,9 +42,9 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance(); // Inicializa mAuth con la instancia de FirebaseAuth
 
         // Inicializa los campos de texto para que se adjunten a su apartado del xml
-        editTextNombre = findViewById(R.id.NombreUsuario);
+        editTextNombre = findViewById(R.id.NombUsuario);
         editTextEmail = findViewById(R.id.Correo_electrónico);
-        editTextPassword = findViewById(R.id.Contraseña);
+        editTextPassword = findViewById(R.id.Password);
 
         // Inicializamos el boton para que se adjunte a su apartado del xml
         Button buttonRegister = findViewById(R.id.buttonnRegister);
@@ -83,7 +83,7 @@ public class RegisterActivity extends AppCompatActivity {
         // Intentamos crear un usuario con el correo electrónico y la contraseña
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, task -> {
-                    // Si todo sale bien, obtiene el usuario actual y guarda los datos adicionales en la base de datos
+                    // Sitodo sale bien, obtiene el usuario actual y guarda los datos adicionales en la base de datos
                     //if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
                         Usuario nuevoUsuario = new Usuario(nombre, email);

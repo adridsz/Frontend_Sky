@@ -15,12 +15,11 @@
 
 
 
-    <EditText
+    <TextView
         android:id="@+id/NombreUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Nombre Usuario"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="200sp"
         android:text="Nombre Usuario"
         android:textColor="#FFFFFF"
         app:layout_constraintWidth_percent="0.6"
@@ -31,7 +30,7 @@
     <EditText
         android:id="@+id/NombUsuario"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:hint="john.doe"
         android:background="@drawable/border_login_register"
         app:layout_constraintTop_toBottomOf="@id/NombreUsuario"
@@ -43,12 +42,11 @@
 
 
 
-    <EditText
+    <TextView
         android:id="@+id/CorreoElectrónico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="CorreoElectrónico"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="15sp"
         android:text="CorreoElectrónico"
         android:textColor="#FFFFFF"
         app:layout_constraintWidth_percent="0.6"
@@ -59,7 +57,7 @@
     <EditText
         android:id="@+id/Correo_electrónico"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:hint="john.doe@gmail.com"
         android:background="@drawable/border_login_register"
         app:layout_constraintTop_toBottomOf="@id/CorreoElectrónico"
@@ -71,12 +69,11 @@
 
 
 
-    <EditText
+    <TextView
         android:id="@+id/Contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Contraseña"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="15sp"
         android:text="Contraseña"
         android:textColor="#FFFFFF"
         app:layout_constraintWidth_percent="0.6"
@@ -87,7 +84,7 @@
     <EditText
         android:id="@+id/Password"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48sp"
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:background="@drawable/border_login_register"
@@ -104,7 +101,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrarse"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         app:layout_constraintTop_toBottomOf="@id/Password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -117,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ya tengo cuenta"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="10sp"
         app:layout_constraintTop_toBottomOf="@id/buttonnRegister"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

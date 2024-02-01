@@ -15,14 +15,15 @@
 
 
 
-    <EditText
+    <TextView
         android:id="@+id/CorreoElectrónico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="CorreoElectrónico"
-        android:layout_marginTop="200dp"
-        android:text="CorreoElectrónico"
+        android:hint="Correo Electrónico"
+        android:text="Correo Electrónico"
+        android:textSize="20dp"
         android:textColor="#FFFFFF"
+        android:layout_marginTop="200dp"
         app:layout_constraintWidth_percent="0.6"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,14 +44,15 @@
 
 
 
-    <EditText
+    <TextView
         android:id="@+id/Contraseña"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Contraseña"
-        android:layout_marginTop="15dp"
         android:text="Contraseña"
+        android:textSize="20dp"
         android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
         app:layout_constraintWidth_percent="0.6"
         app:layout_constraintTop_toBottomOf="@id/Correo_electrónico"
         app:layout_constraintStart_toStartOf="parent"
