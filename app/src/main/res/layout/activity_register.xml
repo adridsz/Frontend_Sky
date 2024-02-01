@@ -84,6 +84,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/Digit_Contr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña (6DÍGITOS)"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="1sp"
+        app:layout_constraintWidth_percent="0.6"
+        app:layout_constraintTop_toBottomOf="@id/Contraseña"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <EditText
         android:id="@+id/Password"
         android:layout_width="0sp"
@@ -91,8 +104,9 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:background="@drawable/border_login_register"
+        android:layout_marginTop="8sp"
         app:layout_constraintWidth_percent="0.6"
-        app:layout_constraintTop_toBottomOf="@id/Contraseña"
+        app:layout_constraintTop_toBottomOf="@id/Digit_Contr"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
