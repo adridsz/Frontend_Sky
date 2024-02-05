@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -8,12 +9,21 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/logo"
+        android:icon="@drawable/sky_name"
         android:label="Sky"
-        android:roundIcon="@drawable/logo"
+        android:roundIcon="@drawable/sky_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
+        <activity android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.RegisterActivity"
+            android:exported="false"/>
         <activity
             android:name=".ui.perfil.EliminarCarpeta.ECViewHolder"
             android:exported="false" />
@@ -27,13 +37,7 @@
             android:name=".ModificarTemas"
             android:exported="false" />
         <activity
-            android:name=".Ajustes"
-            android:exported="false" />
-        <activity
             android:name=".ModificarInfo"
-            android:exported="false" />
-        <activity
-            android:name=".Buscador"
             android:exported="false" />
         <activity
             android:name=".Drawer"
@@ -46,14 +50,5 @@
         <activity
             android:name=".ui.perfil.Carpetas.CarpetasViewHolder"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 </manifest>
