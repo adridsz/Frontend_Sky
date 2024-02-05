@@ -138,7 +138,7 @@ public class PerfilFragment extends Fragment {
             case 1:
                 JsonArrayRequest request1 = new JsonArrayRequest(
                     Request.Method.GET,
-                    "https://raw.githubusercontent.com/tgcyn/DI/main/recursos/catalog.json",
+                    "https://raw.githubusercontent.com/adridsz/Frontend_Sky/281a135354d544f21434293c29d7331409dd8748/app/animales.json",
                     null,
                     new Response.Listener<JSONArray>() {
                         @Override
