@@ -210,6 +210,7 @@ public class PerfilFragment extends Fragment {
             );
             requestQueue.add(request2);
             break;
+            //este caso solo es para hacer la trampa del borrado: si añado un titulo de los q ya existen y dps elimino todos menos ese solo aparece ese
             case 3:
                 JsonArrayRequest request3 = new JsonArrayRequest(
                         Request.Method.GET,
