@@ -22,7 +22,7 @@
   {
     "categoria": "animal",
     "image_url": "https://images.hola.com/imagenes/mascotas/20191127154290/gato-triunfa-redes-selfies-gt/0-747-426/portada-gato-selfie-t.jpg"
-  }
+  },
   {
     "categoria": "paisajismo",
     "image_url": "https://i.pinimg.com/originals/61/60/74/616074675b36760d181ea39e74b9b2b2.jpg"
@@ -118,5 +118,5 @@
   {
     "categoria": "hobby",
     "image_url":  "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2013/03/08/110739.jpg"
-  },
+  }
 ]
