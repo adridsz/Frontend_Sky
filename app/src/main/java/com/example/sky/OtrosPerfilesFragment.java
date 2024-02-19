@@ -97,7 +97,7 @@ public class OtrosPerfilesFragment extends Fragment {
 
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
-                null,
+                "https://raw.githubusercontent.com/adridsz/Frontend_Sky/bet/app/imagenesOtrosPerfiles.json",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override

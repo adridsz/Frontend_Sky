@@ -8,7 +8,7 @@ public class Foto {
     private String linkImagen;
 
     public Foto(JSONObject objeto) throws JSONException {
-        this.titulo = objeto.getString("categoria");
+        this.titulo = objeto.getString("titulo");
         this.linkImagen = objeto.getString("image_url");
     }
 
