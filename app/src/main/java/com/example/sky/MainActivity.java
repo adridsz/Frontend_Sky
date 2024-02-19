@@ -12,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Fragment myfragment3 = new OtrosPerfilesFragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myfragment3).commit();
+
     }
 }

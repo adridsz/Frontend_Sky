@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:src="@drawable/ic_launcher_foreground" />
+        android:src="@drawable/huellitas" />
 
     <TextView
         android:id="@+id/nombreUsuario"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="Nombre de usuario" />
+        android:text="&amp;animales123" />
 
     <TextView
         android:id="@+id/descripcionUsuario"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="Descripción del usuario..." />
+        android:text="Perfil de animales" />
 
     <LinearLayout
         android:id="@+id/botonesLayout"
@@ -48,4 +48,13 @@
             android:layout_marginStart="16dp"
             android:text="Carpetas" />
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewImagenes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
 </LinearLayout>
