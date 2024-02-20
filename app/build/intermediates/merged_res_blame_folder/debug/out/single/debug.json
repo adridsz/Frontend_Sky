@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_perfil2.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_perfil2.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_cerrar_sesion.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_cerrar_sesion.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_nav_header_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/nav_header_drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sky.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_imagen_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_imagen_view_holder.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_detail.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_lupa.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/lupa.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_carpeta.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/carpeta.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_content_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/content_drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_app_bar_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/app_bar_drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_lapiz.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_lapiz.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_login.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_inicio.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_inicio.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_imagen_data.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_imagen_data.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_lapiz2.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_lapiz2.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_modificar_fuentes.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_modificar_fuentes.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_configuracion.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_configuracion.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_subir_foto.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_subir_foto.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_blackimg.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/blackimg.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_cerrar_sesion.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_cerrar_sesion.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.example.sky.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_otros_perfiles.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_otros_perfiles.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_border_texto_desc.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/border_texto_desc.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_inicio.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_register.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/navigation_mobile_navigation2.xml.flat",
+        "source": "com.example.sky.app-main-46:/navigation/mobile_navigation2.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_fondo_login_register.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/fondo_login_register.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_imagen_recycler_view_adaptar.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_imagen_recycler_view_adaptar.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_item_foto.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/item_foto.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_huellitas.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/huellitas.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_modificar_info.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_modificar_info.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_inicio.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_inicio.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_sky_name.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/sky_name.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_border_login_register.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/border_login_register.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_sky.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/sky.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_modificar_temas.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_modificar_temas.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_icono_perfil.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/icono_perfil.png"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/menu_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/menu/drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_eliminar_foto.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_eliminar_foto.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_perfil.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.sky.app-main-46:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_fragment_editar_carpeta.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/fragment_editar_carpeta.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_border.xml.flat",
+        "source": "com.example.sky.app-main-46:/drawable/border.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/layout_activity_buscador.xml.flat",
+        "source": "com.example.sky.app-main-46:/layout/activity_buscador.xml"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-44:/drawable_logo.png.flat",
+        "source": "com.example.sky.app-main-46:/drawable/logo.png"
+    }
+]

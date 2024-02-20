@@ -14,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.sky.ui.perfil.PerfilFragment;
+
 public class SubirFotoFragment extends Fragment {
 
     public SubirFotoFragment() {
@@ -70,10 +72,8 @@ public class SubirFotoFragment extends Fragment {
     }
 
     private void volverAMainActivity() {
-        // Volver a la actividad MainActivity
-        Intent intent = new Intent(getActivity(), MainActivity.class);
-        startActivity(intent);
-        getActivity().finish();
+        Fragment myfragment3 = new PerfilFragment();
+        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myfragment3).commit();
     }
 
 }

@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -16,7 +15,22 @@
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.inicio.Detail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.inicio.ImagenData"
+            android:exported="false" />
+        <activity
+            android:name=".ui.inicio.ImagenRecyclerViewAdaptar"
+            android:exported="false" />
+        <activity
+            android:name=".ui.inicio.ImagenViewHolder"
+            android:exported="false" />
+        <activity
+            android:name=".ui.inicio.Inicio"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +38,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".login.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarFuentes"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarTemas"
+            android:exported="false" />
+        <activity
+            android:name=".Ajustes"
+            android:exported="false" />
+        <activity
+            android:name=".ModificarInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Buscador"
+            android:exported="false" />
+        <activity
+            android:name=".Drawer"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.Sky.NoActionBar" />
     </application>
-
 </manifest>

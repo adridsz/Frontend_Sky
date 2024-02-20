@@ -21,20 +21,12 @@ public class CerrarSesionFragment extends Fragment {
 
         TextView tvMessage = view.findViewById(R.id.tvMessage);
         Button btnConfirmar = view.findViewById(R.id.btnConfirmar);
-        Button btnCancelar = view.findViewById(R.id.btnCancelar);
 
         btnConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Redirigir a la pantalla de inicio de sesión.
                 requireActivity().finish(); // Cierra la actividad actual
-            }
-        });
-
-        btnCancelar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // No realizar ninguna acción al cancelar
             }
         });
 

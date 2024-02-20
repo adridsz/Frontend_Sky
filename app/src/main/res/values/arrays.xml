@@ -8,4 +8,17 @@
         <item>Ocio</item>
         <item>Hobbie</item>
     </string-array>
+
+    <string-array name="array_temas">
+        <item>------</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+
+    <string-array name="array_fuentes">
+        <item>------</item>
+        <item>Times New Roman</item>
+        <item>Comic Sans</item>
+    </string-array>
+
 </resources>
