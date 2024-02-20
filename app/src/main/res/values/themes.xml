@@ -15,4 +15,5 @@
     <style name="Theme.Sky.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Sky.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
