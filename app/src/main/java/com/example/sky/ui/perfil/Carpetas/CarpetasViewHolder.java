@@ -1,6 +1,7 @@
 package com.example.sky.ui.perfil.Carpetas;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
@@ -10,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.sky.EditarCarpetaFragment;
 import com.example.sky.R;
 import com.example.sky.ui.perfil.Carpetas.CarpetasData;
 
@@ -28,7 +30,12 @@ public class CarpetasViewHolder extends RecyclerView.ViewHolder {
             public void onClick(View view) {
                 String carpeta = imagenes.getNombre();
                 Context context = view.getContext();
-                Toast.makeText(context, "Entraste en la carpeta: "+carpeta, Toast.LENGTH_LONG).show();
+                EditarCarpetaFragment editarCarpetaFragment = EditarCarpetaFragment.newInstance(carpeta);
+                ((FragmentActivity) context).getSupportFragmentManager().popBackStack();
+                ((FragmentActivity) context).getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.nav_host_fragment_content_drawer, editarCarpetaFragment)
+                        .addToBackStack(null)
+                        .commit();
             }
         });
     }
