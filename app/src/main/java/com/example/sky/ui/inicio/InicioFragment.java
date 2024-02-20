@@ -1,13 +1,17 @@
 package com.example.sky.ui.inicio;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,13 +41,27 @@ public class InicioFragment extends Fragment {
     private Context context;
     private RequestQueue requestQueue;
     private RecyclerView recyclerView;
+    private Button categAnimal;
+    private Button categPaisajismo;
+    private Button categComida;
+    private Button categOcio;
+    private Button categHobby;
     private Activity activity;
     private ImagenRecyclerViewAdaptar imagenAdapter;
 
 
+
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_inicio, container, false);recyclerView = view.findViewById(R.id.recycler_view);
+        View view = inflater.inflate(R.layout.fragment_inicio, container, false);
+        recyclerView = view.findViewById(R.id.recycler_view);
+        categAnimal = view.findViewById(R.id.categAnimal);
+        categPaisajismo = view.findViewById(R.id.categPaisajismo);
+        categComida = view.findViewById(R.id.categComida);
+        categOcio = view.findViewById(R.id.categOcio);
+        categHobby = view.findViewById(R.id.categHobby);
+
         return view;
     }
 
@@ -66,6 +84,9 @@ public class InicioFragment extends Fragment {
 
         // Asigna el adaptador al RecyclerView
         recyclerView.setAdapter(imagenAdapter);
+
+        buttonRegister.setOnClickListener(v -> registrarUsuario());
+        buttonRegister.setOnClickListener(v -> registrarUsuario());
     }
 
 
@@ -74,7 +95,7 @@ public class InicioFragment extends Fragment {
 
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
-                "https://raw.githubusercontent.com/adridsz/Frontend_Sky/main/app/src/main/res/drawable/imagenesInicio.json",
+                "https://raw.githubusercontent.com/adridsz/Frontend_Sky/main/app/imagenesInicio.json",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override
