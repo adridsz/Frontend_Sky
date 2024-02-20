@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -16,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
+        <activity
+            android:name=".Imagen"
+            android:exported="false" />
         <activity
             android:name=".ui.inicio.Detail_Activity"
             android:exported="false" />
