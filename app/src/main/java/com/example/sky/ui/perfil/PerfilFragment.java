@@ -1,9 +1,10 @@
 package com.example.sky.ui.perfil;
 
+import static java.security.AccessController.getContext;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -27,6 +28,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.sky.ModificarInfo;
 import com.example.sky.R;
 import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
 import com.example.sky.ui.perfil.Carpetas.CarpetasData;
@@ -35,6 +37,7 @@ import com.example.sky.ui.perfil.EliminarCarpeta.ECData;
 import com.example.sky.ui.perfil.EliminarCarpeta.EliminarCarpetas;
 import com.example.sky.ui.perfil.Imagenes.ImagenesAdapter;
 import com.example.sky.ui.perfil.Imagenes.ImagenesData;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -42,10 +45,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.example.sky.ModificarInfo;
-import com.example.sky.R;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class PerfilFragment extends Fragment {
@@ -210,7 +209,8 @@ public class PerfilFragment extends Fragment {
             );
             requestQueue.add(request2);
             break;
-            //este caso solo es para hacer la trampa del borrado: si añado un titulo de los q ya existen y dps elimino todos menos ese solo aparece ese
+
+            /*este caso solo es para hacer la trampa del borrado: si añado un titulo de los q ya existen y dps elimino todos menos ese solo aparece ese
             case 3:
                 JsonArrayRequest request3 = new JsonArrayRequest(
                         Request.Method.GET,
@@ -236,7 +236,7 @@ public class PerfilFragment extends Fragment {
                         }
                 );
                 requestQueue.add(request3);
-                break;
+                break;*/
     }
 }
 
@@ -324,7 +324,7 @@ public class PerfilFragment extends Fragment {
         if (requestCode == CODIGO_PARA_ELIMINAR_CARPETAS && resultCode == Activity.RESULT_OK) {
             Toast.makeText(context, "Aqui se ve la lista sin los borrados", Toast.LENGTH_LONG).show();
 
-            showRecycler(3);
+            showRecycler(2);
 
         } else {
             Toast.makeText(context, "Algo fue mal volviendo al fragment", Toast.LENGTH_LONG).show();
