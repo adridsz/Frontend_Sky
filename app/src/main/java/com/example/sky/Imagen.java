@@ -45,18 +45,16 @@ public class Imagen extends AppCompatActivity {
                 .apply(requestOptions)
                 .into(foto);
 
-        usuario.findViewById(R.id.usuario);
+        usuario = findViewById(R.id.usuario);
 
         usuario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //aqui vamos al codigo de bet de SubirFotoFragment
-                // Comienza la transacción del fragmento
-                Fragment myfragment3 = new OtrosPerfilesFragment();
+                // Start the fragment transaction
+                Fragment otrosPerfilesFragment = new OtrosPerfilesFragment();
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.nav_host_fragment_content_drawer, new myfragment3())
+                        .replace(R.id.fragment_container, otrosPerfilesFragment)
                         .commit();
-                getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
             }
         });
 

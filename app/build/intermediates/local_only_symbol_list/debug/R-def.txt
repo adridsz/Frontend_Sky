@@ -104,6 +104,7 @@ id editnomus
 id fotoPerfil
 id foto_perfil
 id foto_predeterminada
+id fragment_container
 id hobbies
 id icono_modificar_carpetas
 id icono_modificar_imagenes
