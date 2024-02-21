@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">811598929478</string>
+    <string name="google_api_key" translatable="false">AIzaSyCN0wT0kVLuWtI8z9gCw3rd8dqGiPBPWfA</string>
+    <string name="google_app_id" translatable="false">1:811598929478:android:c6849bf1c79c27d1927447</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCN0wT0kVLuWtI8z9gCw3rd8dqGiPBPWfA</string>
+    <string name="google_storage_bucket" translatable="false">skyapp-f74ed.appspot.com</string>
+    <string name="project_id" translatable="false">skyapp-f74ed</string>
+</resources>

@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -58,7 +57,13 @@
             android:name=".ModificarTemas"
             android:exported="false" />
         <activity
+            android:name=".Ajustes"
+            android:exported="false" />
+        <activity
             android:name=".ModificarInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Buscador"
             android:exported="false" />
         <activity
             android:name=".Drawer"
