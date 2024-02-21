@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\pedro\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

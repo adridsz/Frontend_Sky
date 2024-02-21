@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\pedro\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

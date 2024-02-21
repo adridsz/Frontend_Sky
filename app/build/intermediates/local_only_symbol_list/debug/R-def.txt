@@ -3,7 +3,13 @@ local
 array array_fuentes
 array array_temas
 array categoria
+color azul
 color black
+color morado
+color naranja
+color negro
+color rojo
+color rosa
 color white
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
@@ -15,6 +21,8 @@ drawable border
 drawable border_login_register
 drawable border_texto_desc
 drawable carpeta
+drawable fondo_buscador
+drawable fondo_inicio
 drawable fondo_login_register
 drawable hampster
 drawable huellitas
@@ -37,13 +45,10 @@ drawable icono_perfil2
 drawable icono_tres_puntos
 drawable logo
 drawable lupa
+drawable lupa_sky
 drawable side_nav_bar
 drawable sky
 drawable sky_name
-id BuscarAnimales
-id BuscarAutomocion
-id BuscarDeportes
-id BuscarPaisajes
 id Contraseña
 id CorreoElectrónico
 id Correo_electrónico
@@ -67,6 +72,7 @@ id btnEditarCarpeta
 id btnImagenes
 id btnVolver
 id buttonBuscar
+id buttonVolver
 id buttonnLoggin
 id buttonnReggister
 id buttonnRegister
@@ -76,6 +82,12 @@ id carpeta
 id cartel_carpetas
 id cartel_imagenes
 id casilla
+id categAnimal
+id categComida
+id categHobby
+id categOcio
+id categPaisajismo
+id categorias
 id checkBox
 id checkBox2
 id comida
@@ -105,6 +117,7 @@ id imagencarpeta
 id img_celda
 id lapiz
 id listViewFotos
+id lupa_mano
 id mobile_navigation2
 id mod_fuentes
 id mod_temas
@@ -130,12 +143,8 @@ id spinner_fuentes
 id spinner_temas
 id subir_foto
 id textView
-id textViewAnimales
-id textViewAutomocion
 id textViewCategoria
-id textViewDeportes
 id textViewLinkFoto
-id textViewPaisajes
 id textViewTitulo
 id textViewTituloFoto
 id texto
@@ -147,7 +156,6 @@ id toolbar
 id tvMessage
 id tvTitle
 id usuario
-layout activity_buscador
 layout activity_carpetas_view_holder
 layout activity_detail
 layout activity_drawer
@@ -166,6 +174,7 @@ layout activity_modificar_temas
 layout activity_register
 layout app_bar_drawer
 layout content_drawer
+layout fragment_buscador
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
 layout fragment_editar_carpetas_view_holder

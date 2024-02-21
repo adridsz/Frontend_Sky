@@ -1,122 +1,122 @@
 [
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_detail.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_detail.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_eliminar_carpetas.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_eliminar_carpetas.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_cerrar_sesion.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_cerrar_sesion.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_modificar_info.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_modificar_info.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_register.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_otros_perfiles.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_otros_perfiles.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_drawer.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_drawer.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_subir_foto.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_subir_foto.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_imagenes_view_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagenes_view_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_cerrar_sesion.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_cerrar_sesion.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_inicio.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_inicio.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_editar_carpeta.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_editar_carpeta.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_buscador.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_buscador.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_carpetas_view_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_carpetas_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_otros_perfiles.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_otros_perfiles.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_ecview_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_ecview_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_eliminar_imagen_carpeta.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_imagen_carpeta.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_eliminar_foto.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_eliminar_foto.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_modificar_temas.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_temas.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_editar_carpetas_view_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_editar_carpetas_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_eliminar_imagen_carpeta_view_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_imagen_carpeta_view_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.sky.app-mergeDebugResources-55:/layout/fragment_cerrar_sesion.xml",
-        "source": "com.example.sky.app-main-58:/layout/fragment_cerrar_sesion.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\nav_header_drawer.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\nav_header_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_perfil.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_perfil.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_imagen_view_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_imagen_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_eliminar_carpetas.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_carpetas.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_inicio.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\item_foto.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\item_foto.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_perfil.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_imagen.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagen.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_imagenes_view_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_imagenes_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_editar_carpetas_view_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_editar_carpetas_view_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_imagen.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_imagen.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_imagen_view_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagen_view_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_buscador.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_buscador.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_ecview_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_ecview_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\app_bar_drawer.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\app_bar_drawer.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\item_foto.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\item_foto.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_editar_carpeta.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_editar_carpeta.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_eliminar_imagen_carpeta_view_holder.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_eliminar_imagen_carpeta_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_inicio.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_inicio.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\fragment_inicio.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\fragment_inicio.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_modificar_fuentes.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_fuentes.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_modificar_fuentes.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_modificar_fuentes.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_eliminar_imagen_carpeta.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_eliminar_imagen_carpeta.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_carpetas_view_holder.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_carpetas_view_holder.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_subir_foto.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_subir_foto.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\content_drawer.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\content_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\activity_modificar_info.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_info.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_modificar_temas.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_modificar_temas.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\nav_header_drawer.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\nav_header_drawer.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\app_bar_drawer.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\app_bar_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\content_drawer.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\content_drawer.xml"
+        "merged": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-56:\\layout\\activity_drawer.xml",
+        "source": "C:\\Users\\pedro\\.gradle\\daemon\\8.2\\com.example.sky.app-main-59:\\layout\\activity_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-55:\\layout\\fragment_eliminar_foto.xml",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_eliminar_foto.xml"
+        "merged": "com.example.sky.app-mergeDebugResources-56:/layout/activity_register.xml",
+        "source": "com.example.sky.app-main-59:/layout/activity_register.xml"
     }
 ]

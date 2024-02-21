@@ -18,7 +18,13 @@
         <item>Ocio</item>
         <item>Hobbie</item>
     </string-array>
+    <color name="azul">#0000FF</color>
     <color name="black">#FF000000</color>
+    <color name="morado">#DF02F1</color>
+    <color name="naranja">#FF8000</color>
+    <color name="negro">#000000</color>
+    <color name="rojo">#FF0000</color>
+    <color name="rosa">#FF0080</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

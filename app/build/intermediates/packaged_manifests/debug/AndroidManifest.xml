@@ -10,12 +10,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
     <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
         android:name="com.example.sky.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -180,6 +180,27 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/ga_ad_services_config" />
+
+        <service
+            android:name="com.google.firebase.sessions.SessionLifecycleService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.sky.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.example.sky.androidx-startup"
@@ -210,27 +231,6 @@
             android:enabled="true"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
-
-        <property
-            android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/ga_ad_services_config" />
-
-        <service
-            android:name="com.google.firebase.sessions.SessionLifecycleService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.sky.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <uses-library
             android:name="androidx.window.extensions"
