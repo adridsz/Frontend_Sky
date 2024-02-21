@@ -60,7 +60,13 @@
             android:name=".ModificarTemas"
             android:exported="false" />
         <activity
+            android:name=".Ajustes"
+            android:exported="false" />
+        <activity
             android:name=".ModificarInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Buscador"
             android:exported="false" />
         <activity
             android:name=".Drawer"
@@ -74,5 +80,4 @@
             android:name=".ui.perfil.Carpetas.CarpetasViewHolder"
             android:exported="false" />
     </application>
-
 </manifest>

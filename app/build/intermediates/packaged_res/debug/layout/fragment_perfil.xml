@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.inicio.InicioFragment" >
+
+    <ImageView
+        android:id="@+id/imagen_perfil"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icono_perfil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="supernenas"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagen_perfil" />
+
+    <TextView
+        android:id="@+id/biografia_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Esta es la descripción del grupo"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nombre_perfil"/>
+
+    <ImageView
+        android:id="@+id/icono_modificar_imagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icono_tres_puntos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <TextView
+        android:id="@+id/cartel_imagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imágenes"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toEndOf="@id/icono_modificar_imagenes"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <ImageView
+        android:id="@+id/icono_modificar_carpetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icono_tres_puntos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <TextView
+        android:id="@+id/cartel_carpetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Carpetas"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@id/icono_modificar_carpetas"
+        app:layout_constraintTop_toBottomOf="@id/biografia_perfil" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/icono_modificar_imagenes"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/lapiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@drawable/icono_lapiz" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

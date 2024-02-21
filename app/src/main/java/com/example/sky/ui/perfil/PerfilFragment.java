@@ -9,6 +9,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,6 +32,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.sky.R;
+import com.example.sky.SubirFotoFragment;
 import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
 import com.example.sky.ui.perfil.Carpetas.CarpetasData;
 import com.example.sky.ui.perfil.EliminarCarpeta.ECAdapter;
@@ -49,13 +54,14 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class PerfilFragment extends Fragment {
+
+    private FloatingActionButton editar;
     private Context context;
     private RequestQueue requestQueue;
     private TextView carpetas;
     private TextView imagenes;
     private ImageView edit_carpetas;
     private ImageView edit_imagenes;
-    private FloatingActionButton editar;
     private RecyclerView recyclerView;
     private int idImagen = R.drawable.icono_carpeta;
     private String nombreCarpeta;
@@ -278,6 +284,10 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en subir foto", Toast.LENGTH_LONG).show();
+
+                        //aqui vamos al codigo de bet de SubirFotoFragment
+                        Fragment myfragment3 = new SubirFotoFragment();
+                        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
                     }
                 });
 
@@ -369,5 +379,6 @@ public class PerfilFragment extends Fragment {
 
             }
         });
+
     }
 }

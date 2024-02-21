@@ -99,7 +99,6 @@
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
         app:srcCompat="@drawable/icono_lapiz" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
