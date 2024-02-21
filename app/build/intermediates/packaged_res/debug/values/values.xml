@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="array_fuentes">
         <item>------</item>
         <item>Times New Roman</item>
@@ -18,7 +18,13 @@
         <item>Ocio</item>
         <item>Hobbie</item>
     </string-array>
+    <color name="azul">#0000FF</color>
     <color name="black">#FF000000</color>
+    <color name="morado">#DF02F1</color>
+    <color name="naranja">#FF8000</color>
+    <color name="negro">#000000</color>
+    <color name="rojo">#FF0000</color>
+    <color name="rosa">#FF0080</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
@@ -27,6 +33,7 @@
     <dimen name="nav_header_vertical_spacing">8dp</dimen>
     <string name="action_settings">Settings</string>
     <string name="app_name">Sky</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
     <string name="gcm_defaultSenderId" translatable="false">811598929478</string>
     <string name="google_api_key" translatable="false">AIzaSyCN0wT0kVLuWtI8z9gCw3rd8dqGiPBPWfA</string>
     <string name="google_app_id" translatable="false">1:811598929478:android:c6849bf1c79c27d1927447</string>

@@ -1404,6 +1404,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color azul
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -2080,6 +2081,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color morado
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -2135,6 +2137,8 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color naranja
+color negro
 color notification_action_color_filter
 color notification_icon_bg_color
 color primary_dark_material_dark
@@ -2147,6 +2151,8 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color rojo
+color rosa
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3082,6 +3088,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fondo_buscador
+drawable fondo_inicio
 drawable fondo_login_register
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -3118,6 +3126,7 @@ drawable icono_perfil2
 drawable icono_tres_puntos
 drawable logo
 drawable lupa
+drawable lupa_sky
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3198,10 +3207,6 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id BuscarAnimales
-id BuscarAutomocion
-id BuscarDeportes
-id BuscarPaisajes
 id CTRL
 id Contraseña
 id CorreoElectrónico
@@ -3214,6 +3219,7 @@ id NO_DEBUG
 id NombUsuario
 id NombreUsuario
 id Password
+id Pregunta
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3221,7 +3227,11 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+<<<<<<< HEAD
 id TextViewiCarpeta
+=======
+id TextoCarpeta
+>>>>>>> main
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3324,11 +3334,13 @@ id browser_actions_menu_view
 id btnCancelar
 id btnCarpetas
 id btnConfirmar
+id btnConfirmarEliminar
 id btnEditarCarpeta
 id btnImagenes
 id btnVolver
 id buttonBuscar
 id buttonPanel
+id buttonVolver
 id buttonnLoggin
 id buttonnReggister
 id buttonnRegister
@@ -3342,6 +3354,12 @@ id carryVelocity
 id cartel_carpetas
 id cartel_imagenes
 id casilla
+id categAnimal
+id categComida
+id categHobby
+id categOcio
+id categPaisajismo
+id categorias
 id center
 id centerCrop
 id centerInside
@@ -3350,6 +3368,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id checkBox
+id checkBox2
 id checkbox
 id checked
 id chronometer
@@ -3450,6 +3470,7 @@ id forever
 id fotoPerfil
 id foto_perfil
 id foto_predeterminada
+id fragment_container
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3483,6 +3504,7 @@ id imageViewFoto
 id imagen
 id imagen2
 id imagen_perfil
+id imagencarpeta
 id img_celda
 id immediateStop
 id included
@@ -3490,6 +3512,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3509,6 +3532,7 @@ id listViewFotos
 id list_item
 id locale
 id ltr
+id lupa_mano
 id m3_side_sheet
 id marquee
 id masked
@@ -3636,6 +3660,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -3644,6 +3669,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewEditarCarpeta
+id recyclerViewEliminarImagenCarpeta
 id recyclerViewImagenes
 id recycler_eliminar
 id recycler_perfil
@@ -3746,12 +3773,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textViewAnimales
-id textViewAutomocion
 id textViewCategoria
-id textViewDeportes
 id textViewLinkFoto
-id textViewPaisajes
 id textViewTitulo
 id textViewTituloFoto
 id text_input_end_icon
@@ -3928,12 +3951,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_buscador
 layout activity_carpetas_view_holder
 layout activity_detail
 layout activity_drawer
 layout activity_ecview_holder
 layout activity_eliminar_carpetas
+layout activity_eliminar_imagen_carpeta
+layout activity_eliminar_imagen_carpeta_view_holder
 layout activity_imagen
 layout activity_imagen_view_holder
 layout activity_imagenes_view_holder
@@ -3963,9 +3987,14 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+<<<<<<< HEAD
 layout fragment_carpeta
+=======
+layout fragment_buscador
+>>>>>>> main
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
+layout fragment_editar_carpetas_view_holder
 layout fragment_eliminar_foto
 layout fragment_inicio
 layout fragment_otros_perfiles
@@ -4082,6 +4111,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string com_google_firebase_crashlytics_mapping_file_id
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title

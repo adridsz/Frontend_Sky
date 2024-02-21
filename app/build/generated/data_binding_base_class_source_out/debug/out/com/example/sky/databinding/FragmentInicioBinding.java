@@ -4,7 +4,10 @@ package com.example.sky.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,10 +23,41 @@ public final class FragmentInicioBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button categAnimal;
+
+  @NonNull
+  public final Button categComida;
+
+  @NonNull
+  public final Button categHobby;
+
+  @NonNull
+  public final Button categOcio;
+
+  @NonNull
+  public final Button categPaisajismo;
+
+  @NonNull
+  public final HorizontalScrollView categorias;
+
+  @NonNull
+  public final ImageView lupaMano;
+
+  @NonNull
   public final RecyclerView recyclerView;
 
-  private FragmentInicioBinding(@NonNull FrameLayout rootView, @NonNull RecyclerView recyclerView) {
+  private FragmentInicioBinding(@NonNull FrameLayout rootView, @NonNull Button categAnimal,
+      @NonNull Button categComida, @NonNull Button categHobby, @NonNull Button categOcio,
+      @NonNull Button categPaisajismo, @NonNull HorizontalScrollView categorias,
+      @NonNull ImageView lupaMano, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
+    this.categAnimal = categAnimal;
+    this.categComida = categComida;
+    this.categHobby = categHobby;
+    this.categOcio = categOcio;
+    this.categPaisajismo = categPaisajismo;
+    this.categorias = categorias;
+    this.lupaMano = lupaMano;
     this.recyclerView = recyclerView;
   }
 
@@ -54,13 +88,56 @@ public final class FragmentInicioBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.categAnimal;
+      Button categAnimal = ViewBindings.findChildViewById(rootView, id);
+      if (categAnimal == null) {
+        break missingId;
+      }
+
+      id = R.id.categComida;
+      Button categComida = ViewBindings.findChildViewById(rootView, id);
+      if (categComida == null) {
+        break missingId;
+      }
+
+      id = R.id.categHobby;
+      Button categHobby = ViewBindings.findChildViewById(rootView, id);
+      if (categHobby == null) {
+        break missingId;
+      }
+
+      id = R.id.categOcio;
+      Button categOcio = ViewBindings.findChildViewById(rootView, id);
+      if (categOcio == null) {
+        break missingId;
+      }
+
+      id = R.id.categPaisajismo;
+      Button categPaisajismo = ViewBindings.findChildViewById(rootView, id);
+      if (categPaisajismo == null) {
+        break missingId;
+      }
+
+      id = R.id.categorias;
+      HorizontalScrollView categorias = ViewBindings.findChildViewById(rootView, id);
+      if (categorias == null) {
+        break missingId;
+      }
+
+      id = R.id.lupa_mano;
+      ImageView lupaMano = ViewBindings.findChildViewById(rootView, id);
+      if (lupaMano == null) {
+        break missingId;
+      }
+
       id = R.id.recycler_view;
       RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
       if (recyclerView == null) {
         break missingId;
       }
 
-      return new FragmentInicioBinding((FrameLayout) rootView, recyclerView);
+      return new FragmentInicioBinding((FrameLayout) rootView, categAnimal, categComida, categHobby,
+          categOcio, categPaisajismo, categorias, lupaMano, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

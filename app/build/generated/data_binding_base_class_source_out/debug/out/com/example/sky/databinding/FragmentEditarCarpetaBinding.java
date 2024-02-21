@@ -6,10 +6,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.sky.R;
@@ -19,7 +20,7 @@ import java.lang.String;
 
 public final class FragmentEditarCarpetaBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnEditarCarpeta;
@@ -28,20 +29,24 @@ public final class FragmentEditarCarpetaBinding implements ViewBinding {
   public final ImageView myImageview;
 
   @NonNull
+  public final RecyclerView recyclerViewEditarCarpeta;
+
+  @NonNull
   public final TextView textView;
 
-  private FragmentEditarCarpetaBinding(@NonNull RelativeLayout rootView,
+  private FragmentEditarCarpetaBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnEditarCarpeta, @NonNull ImageView myImageview,
-      @NonNull TextView textView) {
+      @NonNull RecyclerView recyclerViewEditarCarpeta, @NonNull TextView textView) {
     this.rootView = rootView;
     this.btnEditarCarpeta = btnEditarCarpeta;
     this.myImageview = myImageview;
+    this.recyclerViewEditarCarpeta = recyclerViewEditarCarpeta;
     this.textView = textView;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -78,14 +83,20 @@ public final class FragmentEditarCarpetaBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerViewEditarCarpeta;
+      RecyclerView recyclerViewEditarCarpeta = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewEditarCarpeta == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
-      return new FragmentEditarCarpetaBinding((RelativeLayout) rootView, btnEditarCarpeta,
-          myImageview, textView);
+      return new FragmentEditarCarpetaBinding((ConstraintLayout) rootView, btnEditarCarpeta,
+          myImageview, recyclerViewEditarCarpeta, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

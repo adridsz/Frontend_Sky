@@ -1,16 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-51:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+=======
+                    "source": "C:\\Users\\pedro\\Frontend_Sky\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+>>>>>>> main
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "42",
-                        "endOffsets": "54"
+                        "endOffsets": "55"
                     },
                     "to": {
                         "startLines": "2",

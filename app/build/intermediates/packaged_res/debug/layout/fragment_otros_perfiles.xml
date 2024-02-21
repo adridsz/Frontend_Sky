@@ -3,7 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:id="@+id/otrosPerfilesFragment">
+=======
+    android:background="#FFFFFF">
+>>>>>>> main
 
     <ImageView
         android:id="@+id/fotoPerfil"

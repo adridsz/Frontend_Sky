@@ -5,7 +5,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+<<<<<<< HEAD
     android:background="@color/white">
+=======
+    tools:context=".CerrarSesionFragment"
+    android:background="#FFFFFF">
+>>>>>>> main
 
     <LinearLayout
         android:layout_width="wrap_content"
