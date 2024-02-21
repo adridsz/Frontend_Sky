@@ -21,6 +21,9 @@ public final class FragmentCerrarSesionBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button btnCancelar;
+
+  @NonNull
   public final Button btnConfirmar;
 
   @NonNull
@@ -29,9 +32,10 @@ public final class FragmentCerrarSesionBinding implements ViewBinding {
   @NonNull
   public final TextView tvTitle;
 
-  private FragmentCerrarSesionBinding(@NonNull LinearLayout rootView, @NonNull Button btnConfirmar,
-      @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
+  private FragmentCerrarSesionBinding(@NonNull LinearLayout rootView, @NonNull Button btnCancelar,
+      @NonNull Button btnConfirmar, @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
     this.rootView = rootView;
+    this.btnCancelar = btnCancelar;
     this.btnConfirmar = btnConfirmar;
     this.tvMessage = tvMessage;
     this.tvTitle = tvTitle;
@@ -64,6 +68,12 @@ public final class FragmentCerrarSesionBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnCancelar;
+      Button btnCancelar = ViewBindings.findChildViewById(rootView, id);
+      if (btnCancelar == null) {
+        break missingId;
+      }
+
       id = R.id.btnConfirmar;
       Button btnConfirmar = ViewBindings.findChildViewById(rootView, id);
       if (btnConfirmar == null) {
@@ -82,8 +92,8 @@ public final class FragmentCerrarSesionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCerrarSesionBinding((LinearLayout) rootView, btnConfirmar, tvMessage,
-          tvTitle);
+      return new FragmentCerrarSesionBinding((LinearLayout) rootView, btnCancelar, btnConfirmar,
+          tvMessage, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

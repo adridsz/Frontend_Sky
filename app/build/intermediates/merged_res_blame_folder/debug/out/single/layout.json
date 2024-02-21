@@ -44,10 +44,6 @@
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "com.example.sky.app-mergeDebugResources-52:/layout/fragment_subir_foto.xml",
-        "source": "com.example.sky.app-main-55:/layout/fragment_subir_foto.xml"
-    },
-    {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-52:\\layout\\fragment_otros_perfiles.xml",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\fragment_otros_perfiles.xml"
     },
@@ -88,12 +84,20 @@
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\content_drawer.xml"
     },
     {
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-52:\\layout\\fragment_carpeta.xml",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\fragment_carpeta.xml"
+    },
+    {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-52:\\layout\\activity_buscador.xml",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\activity_buscador.xml"
     },
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-52:\\layout\\fragment_subir_foto.xml",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\fragment_subir_foto.xml"
+    },
+    {
+        "merged": "com.example.sky.app-mergeDebugResources-52:/layout/fragment_cerrar_sesion.xml",
+        "source": "com.example.sky.app-main-55:/layout/fragment_cerrar_sesion.xml"
     },
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-mergeDebugResources-52:\\layout\\activity_imagenes_view_holder.xml",

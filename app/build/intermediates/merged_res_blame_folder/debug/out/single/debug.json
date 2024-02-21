@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\drawable\\hampster.jpeg"
     },
     {
+        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\layout_fragment_carpeta.xml.flat",
+        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\fragment_carpeta.xml"
+    },
+    {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_cerrar_sesion.xml.flat",
+        "source": "com.example.sky.app-main-55:/layout/fragment_cerrar_sesion.xml"
     },
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\drawable_border.xml.flat",
@@ -222,10 +230,6 @@
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\layout_activity_imagen.xml.flat",
         "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-55:\\layout\\activity_imagen.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_subir_foto.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_subir_foto.xml"
     },
     {
         "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-53:\\drawable_sky.png.flat",

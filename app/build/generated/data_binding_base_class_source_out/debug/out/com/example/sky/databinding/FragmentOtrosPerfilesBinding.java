@@ -23,6 +23,12 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final ImageView ImageViewCarpeta;
+
+  @NonNull
+  public final TextView TextViewiCarpeta;
+
+  @NonNull
   public final LinearLayout botonesLayout;
 
   @NonNull
@@ -41,19 +47,27 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
   public final TextView nombreUsuario;
 
   @NonNull
+  public final LinearLayout otrosPerfilesFragment;
+
+  @NonNull
   public final RecyclerView recyclerViewImagenes;
 
   private FragmentOtrosPerfilesBinding(@NonNull LinearLayout rootView,
+      @NonNull ImageView ImageViewCarpeta, @NonNull TextView TextViewiCarpeta,
       @NonNull LinearLayout botonesLayout, @NonNull Button btnCarpetas, @NonNull Button btnImagenes,
       @NonNull TextView descripcionUsuario, @NonNull ImageView fotoPerfil,
-      @NonNull TextView nombreUsuario, @NonNull RecyclerView recyclerViewImagenes) {
+      @NonNull TextView nombreUsuario, @NonNull LinearLayout otrosPerfilesFragment,
+      @NonNull RecyclerView recyclerViewImagenes) {
     this.rootView = rootView;
+    this.ImageViewCarpeta = ImageViewCarpeta;
+    this.TextViewiCarpeta = TextViewiCarpeta;
     this.botonesLayout = botonesLayout;
     this.btnCarpetas = btnCarpetas;
     this.btnImagenes = btnImagenes;
     this.descripcionUsuario = descripcionUsuario;
     this.fotoPerfil = fotoPerfil;
     this.nombreUsuario = nombreUsuario;
+    this.otrosPerfilesFragment = otrosPerfilesFragment;
     this.recyclerViewImagenes = recyclerViewImagenes;
   }
 
@@ -84,6 +98,18 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.ImageViewCarpeta;
+      ImageView ImageViewCarpeta = ViewBindings.findChildViewById(rootView, id);
+      if (ImageViewCarpeta == null) {
+        break missingId;
+      }
+
+      id = R.id.TextViewiCarpeta;
+      TextView TextViewiCarpeta = ViewBindings.findChildViewById(rootView, id);
+      if (TextViewiCarpeta == null) {
+        break missingId;
+      }
+
       id = R.id.botonesLayout;
       LinearLayout botonesLayout = ViewBindings.findChildViewById(rootView, id);
       if (botonesLayout == null) {
@@ -120,14 +146,17 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
         break missingId;
       }
 
+      LinearLayout otrosPerfilesFragment = (LinearLayout) rootView;
+
       id = R.id.recyclerViewImagenes;
       RecyclerView recyclerViewImagenes = ViewBindings.findChildViewById(rootView, id);
       if (recyclerViewImagenes == null) {
         break missingId;
       }
 
-      return new FragmentOtrosPerfilesBinding((LinearLayout) rootView, botonesLayout, btnCarpetas,
-          btnImagenes, descripcionUsuario, fotoPerfil, nombreUsuario, recyclerViewImagenes);
+      return new FragmentOtrosPerfilesBinding((LinearLayout) rootView, ImageViewCarpeta,
+          TextViewiCarpeta, botonesLayout, btnCarpetas, btnImagenes, descripcionUsuario, fotoPerfil,
+          nombreUsuario, otrosPerfilesFragment, recyclerViewImagenes);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

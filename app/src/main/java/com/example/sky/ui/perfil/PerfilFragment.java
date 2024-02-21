@@ -31,6 +31,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.sky.EliminarFotoFragment;
 import com.example.sky.R;
 import com.example.sky.SubirFotoFragment;
 import com.example.sky.ui.perfil.Carpetas.CarpetasAdapter;
@@ -296,6 +297,10 @@ public class PerfilFragment extends Fragment {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Toast.makeText(context, "Has clicado en eliminar foto", Toast.LENGTH_LONG).show();
+
+                        //aqui vamos al codigo de bet de SubirFotoFragment
+                        Fragment myfragment3 = new EliminarFotoFragment();
+                        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
                     }
                 });
 

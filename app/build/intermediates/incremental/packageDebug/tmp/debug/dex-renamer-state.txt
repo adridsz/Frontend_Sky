@@ -1,16 +1,16 @@
-#Wed Feb 21 09:35:35 CET 2024
-base.0=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.10=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.11=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.4=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.5=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.6=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.7=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.8=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.9=C\:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+#Wed Feb 21 12:42:15 CET 2024
+base.0=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.11=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.2=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.6=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.7=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.8=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.9=C\:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=8/classes.dex

@@ -148,20 +148,20 @@
                     }
                 },
                 {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3,6,5,4",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "88,146,310,260,202",
-                        "endColumns": "57,55,41,49,57",
-                        "endOffsets": "141,197,347,305,255"
+                        "startLines": "15,1,3,18,17,19,14,13,12,11,10,21,9,5,7,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "807,16,115,904,861,953,745,670,610,534,460,1007,403,186,287,243,341",
+                        "endColumns": "52,40,69,48,42,52,61,74,59,75,73,39,56,56,53,43,61",
+                        "endOffsets": "855,52,180,948,899,1001,802,740,665,605,529,1042,455,238,336,282,398"
                     },
                     "to": {
-                        "startLines": "1077,1078,1144,1774,1775",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "63643,63701,68003,117870,117920",
-                        "endColumns": "57,55,41,49,57",
-                        "endOffsets": "63696,63752,68040,117915,117973"
+                        "startLines": "2019,2021,2067,2109,2110,2111,2182,2183,2184,2185,2186,2202,2203,2204,2205,2206,2207",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "132902,133038,138450,143935,143984,144027,154707,154769,154844,154904,154980,156909,156949,157006,157063,157117,157161",
+                        "endColumns": "52,40,69,48,42,52,61,74,59,75,73,39,56,56,53,43,61",
+                        "endOffsets": "132950,133074,138515,143979,144022,144075,154764,154839,154899,154975,155049,156944,157001,157058,157112,157156,157218"
                     }
                 },
                 {
@@ -184,23 +184,6 @@
                     }
                 },
                 {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,566",
-                        "endColumns": "81,103,108,119,95,72",
-                        "endOffsets": "132,236,345,465,561,634"
-                    },
-                    "to": {
-                        "startLines": "2062,2063,2064,2065,2066,2192",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "137939,138021,138125,138234,138354,155856",
-                        "endColumns": "81,103,108,119,95,72",
-                        "endOffsets": "138016,138120,138229,138349,138445,155924"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\1c232d624d30103b718c73bdd135873a\\transformed\\fragment-1.5.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -217,6 +200,23 @@
                         "endLines": "1842,1880,1917,11496,11500",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "122189,124160,126074,725794,725943"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,6,5,4",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "88,146,310,260,202",
+                        "endColumns": "57,55,41,49,57",
+                        "endOffsets": "141,197,347,305,255"
+                    },
+                    "to": {
+                        "startLines": "1077,1078,1144,1774,1775",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "63643,63701,68003,117870,117920",
+                        "endColumns": "57,55,41,49,57",
+                        "endOffsets": "63696,63752,68040,117915,117973"
                     }
                 },
                 {
@@ -275,7 +275,7 @@
                     }
                 },
                 {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\src\\main\\res\\values\\arrays.xml",
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values\\arrays.xml",
                     "from": {
                         "startLines": "17,11,2",
                         "startColumns": "4,4,4",
@@ -423,6 +423,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,566",
+                        "endColumns": "81,103,108,119,95,72",
+                        "endOffsets": "132,236,345,465,561,634"
+                    },
+                    "to": {
+                        "startLines": "2062,2063,2064,2065,2066,2192",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "137939,138021,138125,138234,138354,155856",
+                        "endColumns": "81,103,108,119,95,72",
+                        "endOffsets": "138016,138120,138229,138349,138445,155924"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\56bb14a80afd6ce68b289870b493eb1f\\transformed\\play-services-basement-18.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -495,22 +512,20 @@
                     }
                 },
                 {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2,7,14,9,16",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "100,318,526,374,619",
-                        "endLines": "5,7,14,12,16",
-                        "endColumns": "12,54,91,12,81",
-                        "endOffsets": "312,368,613,520,696"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,100",
+                        "endColumns": "41,41",
+                        "endOffsets": "94,137"
                     },
                     "to": {
-                        "startLines": "2634,6608,6609,6610,6614",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "185340,464056,464110,464201,464352",
-                        "endLines": "2637,6608,6609,6613,6614",
-                        "endColumns": "12,53,90,12,80",
-                        "endOffsets": "185446,464105,464196,464347,464428"
+                        "startLines": "666,995",
+                        "startColumns": "4,4",
+                        "startOffsets": "33687,58152",
+                        "endColumns": "41,41",
+                        "endOffsets": "33724,58189"
                     }
                 },
                 {
@@ -550,37 +565,22 @@
                     }
                 },
                 {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Alumno\\Sky\\Frontend_Sky\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "15,1,3,18,17,19,14,13,12,11,10,21,9,5,7,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "807,16,115,904,861,953,745,670,610,534,460,1007,403,186,287,243,341",
-                        "endColumns": "52,40,69,48,42,52,61,74,59,75,73,39,56,56,53,43,61",
-                        "endOffsets": "855,52,180,948,899,1001,802,740,665,605,529,1042,455,238,336,282,398"
+                        "startLines": "2,7,14,9,16",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,318,526,374,619",
+                        "endLines": "5,7,14,12,16",
+                        "endColumns": "12,54,91,12,81",
+                        "endOffsets": "312,368,613,520,696"
                     },
                     "to": {
-                        "startLines": "2019,2021,2067,2109,2110,2111,2182,2183,2184,2185,2186,2202,2203,2204,2205,2206,2207",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "132902,133038,138450,143935,143984,144027,154707,154769,154844,154904,154980,156909,156949,157006,157063,157117,157161",
-                        "endColumns": "52,40,69,48,42,52,61,74,59,75,73,39,56,56,53,43,61",
-                        "endOffsets": "132950,133074,138515,143979,144022,144075,154764,154839,154899,154975,155049,156944,157001,157058,157112,157156,157218"
-                    }
-                },
-                {
-                    "source": "C:\\msys64\\home\\Alumno\\Frontend_Sky\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "57,100",
-                        "endColumns": "41,41",
-                        "endOffsets": "94,137"
-                    },
-                    "to": {
-                        "startLines": "666,995",
-                        "startColumns": "4,4",
-                        "startOffsets": "33687,58152",
-                        "endColumns": "41,41",
-                        "endOffsets": "33724,58189"
+                        "startLines": "2634,6608,6609,6610,6614",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "185340,464056,464110,464201,464352",
+                        "endLines": "2637,6608,6609,6613,6614",
+                        "endColumns": "12,53,90,12,80",
+                        "endOffsets": "185446,464105,464196,464347,464428"
                     }
                 }
             ]

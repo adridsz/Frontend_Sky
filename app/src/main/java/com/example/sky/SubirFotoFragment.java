@@ -13,17 +13,14 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import com.example.sky.ui.perfil.PerfilFragment;
 
 public class SubirFotoFragment extends Fragment {
 
-    public SubirFotoFragment() {
-        // Constructor vacío requerido por la API de fragmentos
-    }
-
+    // Método llamado cuando se crea la vista del fragmento
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflar el diseño del fragmento_subir_foto.xml
         View rootView = inflater.inflate(R.layout.fragment_subir_foto, container, false);
 
         // Configurar el Spinner con las categorías
@@ -33,14 +30,15 @@ public class SubirFotoFragment extends Fragment {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerGenero.setAdapter(adapter);
 
+        // Configurar el botón "Confirmar"
         Button btnConfirmar = rootView.findViewById(R.id.btnConfirmar);
         btnConfirmar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Verificar campos antes de confirmar y mostrar mensajes Toast
                 if (validarCampos()) {
-                    // Guardar la información y volver a la pantalla de "Main Activity"
                     Toast.makeText(requireContext(), "Foto subida con éxito", Toast.LENGTH_SHORT).show();
-                    volverAMainActivity();
+                    volverAPerfil();
                 } else {
                     Toast.makeText(requireContext(), "Faltan campos obligatorios", Toast.LENGTH_SHORT).show();
                 }
@@ -52,16 +50,15 @@ public class SubirFotoFragment extends Fragment {
         btnVolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Volver a la pantalla de "Main Activity"
-                volverAMainActivity();
+                volverAPerfil();
             }
         });
 
-        return rootView;
+        return rootView; // Devolver la vista inflada
     }
 
+    // Método para validar los campos antes de confirmar
     private boolean validarCampos() {
-        // Validar campos antes de confirmar
         EditText editTextTituloFoto = requireView().findViewById(R.id.editTextTituloFoto);
         Spinner spinnerCategoria = requireView().findViewById(R.id.spinnerCategoria);
         EditText editTextLinkFoto = requireView().findViewById(R.id.editTextLinkFoto);
@@ -71,13 +68,16 @@ public class SubirFotoFragment extends Fragment {
                 !editTextLinkFoto.getText().toString().isEmpty();
     }
 
-    private void volverAMainActivity() {
+    // Método para volver a la pantalla de perfil
+    private void volverAPerfil() {
+        // Obtener el FragmentManager
         FragmentManager fragmentManager = getParentFragmentManager();
 
+        // Reemplazar el fragmento actual con el fragmento correspondiente
         PerfilFragment perfilFragment = new PerfilFragment();
         FragmentTransaction transaction = fragmentManager. beginTransaction();
         transaction.replace(R.id.nav_host_fragment_content_drawer, perfilFragment);
-        transaction.addToBackStack(null); // Para permitir volver al fragmento anterior al presionar el botón "!
+        transaction.addToBackStack(null); // Para permitir volver al fragmento anterior al presionar el botón "Volver"
         transaction.commit();
     }
 

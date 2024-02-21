@@ -48,14 +48,17 @@ id Contraseña
 id CorreoElectrónico
 id Correo_electrónico
 id Digit_Contr
+id ImageViewCarpeta
 id NombUsuario
 id NombreUsuario
 id Password
+id TextViewiCarpeta
 id animal
 id app_bar_drawer
 id biografia_perfil
 id botCanc
 id botConfirm
+id botonVolver
 id botonesLayout
 id btnCancelar
 id btnCarpetas
@@ -112,6 +115,7 @@ id nombre
 id nombreUsuario
 id nombre_perfil
 id ocio
+id otrosPerfilesFragment
 id paisajismo
 id recyclerViewImagenes
 id recycler_eliminar
@@ -156,6 +160,7 @@ layout activity_modificar_temas
 layout activity_register
 layout app_bar_drawer
 layout content_drawer
+layout fragment_carpeta
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
 layout fragment_eliminar_foto

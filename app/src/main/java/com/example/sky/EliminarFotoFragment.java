@@ -1,6 +1,5 @@
 package com.example.sky;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,8 +11,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import com.example.sky.ui.perfil.PerfilFragment;
 
@@ -29,19 +26,24 @@ public class EliminarFotoFragment extends Fragment {
     private ArrayAdapter<String> adapter;
     private boolean[] fotosSeleccionadas;
 
+    // Método llamado cuando se crea la vista del fragmento
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_eliminar_foto, container, false);
 
+        // Inicializar vistas
         listViewFotos = rootView.findViewById(R.id.listViewFotos);
         btnCancelar = rootView.findViewById(R.id.btnCancelar);
         btnConfirmar = rootView.findViewById(R.id.btnConfirmar);
 
         // Lista de fotos
         fotos = new ArrayList<>();
-        fotos.add("Foto 1");
-        fotos.add("Foto 2");
-        fotos.add("Foto 3");
+        fotos.add("Ojo de tigre");
+        fotos.add("Mapache");
+        fotos.add("Cebra");
+        fotos.add("Mono");
+        fotos.add("Leopardo");
+        fotos.add("Michi :)");
 
         // Inicializar el array para almacenar las selecciones
         fotosSeleccionadas = new boolean[fotos.size()];
@@ -64,7 +66,7 @@ public class EliminarFotoFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 limpiarSelecciones();
-                volverAMainActivity();
+                volverAPerfil();
             }
         });
 
@@ -76,9 +78,10 @@ public class EliminarFotoFragment extends Fragment {
             }
         });
 
-        return rootView;
+        return rootView; // Devolver la vista inflada
     }
 
+    // Método para desmarcar todas las selecciones
     private void limpiarSelecciones() {
         for (int i = 0; i < fotosSeleccionadas.length; i++) {
             fotosSeleccionadas[i] = false;
@@ -86,6 +89,7 @@ public class EliminarFotoFragment extends Fragment {
         actualizarLista();
     }
 
+    // Método para eliminar las fotos seleccionadas
     private void eliminarFotosSeleccionadas() {
         for (int i = fotosSeleccionadas.length - 1; i >= 0; i--) {
             if (fotosSeleccionadas[i]) {
@@ -96,6 +100,7 @@ public class EliminarFotoFragment extends Fragment {
         Toast.makeText(requireContext(), "Fotos eliminadas", Toast.LENGTH_SHORT).show();
     }
 
+    // Método para actualizar la lista con las selecciones actuales
     private void actualizarLista() {
         adapter.notifyDataSetChanged();
         for (int i = 0; i < fotosSeleccionadas.length; i++) {
@@ -103,7 +108,8 @@ public class EliminarFotoFragment extends Fragment {
         }
     }
 
-    private void volverAMainActivity() {
+    // Método para volver al perfil
+    private void volverAPerfil() {
         Fragment myfragment3 = new PerfilFragment();
         requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
     }
