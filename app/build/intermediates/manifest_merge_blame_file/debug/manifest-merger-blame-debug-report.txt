@@ -12,6 +12,7 @@
 11-->C:\Users\pedro\Frontend_Sky\app\src\main\AndroidManifest.xml:5:5-67
 11-->C:\Users\pedro\Frontend_Sky\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<<<<<<< HEAD
 12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\pedro\.gradle\caches\transforms-3\5ffa7e8fb47072e7b7d7b1084e8cb34a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\pedro\.gradle\caches\transforms-3\5ffa7e8fb47072e7b7d7b1084e8cb34a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
 13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
@@ -20,6 +21,16 @@
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
 14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
 14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+=======
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\5ffa7e8fb47072e7b7d7b1084e8cb34a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\5ffa7e8fb47072e7b7d7b1084e8cb34a\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Alumno\.gradle\caches\transforms-3\3c74554bc0e4945574cd87e68cf80cb7\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+13-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Alumno\.gradle\caches\transforms-3\3c74554bc0e4945574cd87e68cf80cb7\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+>>>>>>> main
 15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
 15-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
@@ -27,11 +38,19 @@
 16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
 16-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
 17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+<<<<<<< HEAD
 17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
 17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
 18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 18-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
 18-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+=======
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+>>>>>>> main
 19
 20    <permission
 20-->[androidx.core:core:1.9.0] C:\Users\pedro\.gradle\caches\transforms-3\90ec50c0b0a8dd317ce395fed8ecb94c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -350,6 +369,7 @@
 181        </service>
 182
 183        <property
+<<<<<<< HEAD
 183-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
 184            android:name="android.adservices.AD_SERVICES_CONFIG"
 184-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
@@ -443,6 +463,101 @@
 232-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
 233            android:permission="android.permission.BIND_JOB_SERVICE" />
 233-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\pedro\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+=======
+183-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+184            android:name="android.adservices.AD_SERVICES_CONFIG"
+184-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+185            android:resource="@xml/ga_ad_services_config" />
+185-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\faf4ea730c69e838bb12b7c68d7ddbea\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+186
+187        <service
+187-->[com.google.firebase:firebase-sessions:1.2.1] C:\Users\Alumno\.gradle\caches\transforms-3\2710d5989b128a31d52bc610966510dd\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:22:9-25:40
+188            android:name="com.google.firebase.sessions.SessionLifecycleService"
+188-->[com.google.firebase:firebase-sessions:1.2.1] C:\Users\Alumno\.gradle\caches\transforms-3\2710d5989b128a31d52bc610966510dd\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:23:13-80
+189            android:enabled="true"
+189-->[com.google.firebase:firebase-sessions:1.2.1] C:\Users\Alumno\.gradle\caches\transforms-3\2710d5989b128a31d52bc610966510dd\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:24:13-35
+190            android:exported="false" />
+190-->[com.google.firebase:firebase-sessions:1.2.1] C:\Users\Alumno\.gradle\caches\transforms-3\2710d5989b128a31d52bc610966510dd\transformed\firebase-sessions-1.2.1\AndroidManifest.xml:25:13-37
+191
+192        <provider
+192-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+193            android:name="com.google.firebase.provider.FirebaseInitProvider"
+193-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+194            android:authorities="com.example.sky.firebaseinitprovider"
+194-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+195            android:directBootAware="true"
+195-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+196            android:exported="false"
+196-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+197            android:initOrder="100" />
+197-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Alumno\.gradle\caches\transforms-3\a18c011e37e4e0bdad9bc35c14af055a\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+198
+199        <activity
+199-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alumno\.gradle\caches\transforms-3\fdcb7b0be0c73ac2306571aeca623a00\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+200            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+200-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alumno\.gradle\caches\transforms-3\fdcb7b0be0c73ac2306571aeca623a00\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+201            android:exported="false"
+201-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alumno\.gradle\caches\transforms-3\fdcb7b0be0c73ac2306571aeca623a00\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+202            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+202-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Alumno\.gradle\caches\transforms-3\fdcb7b0be0c73ac2306571aeca623a00\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+203
+204        <provider
+204-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+205            android:name="androidx.startup.InitializationProvider"
+205-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+206            android:authorities="com.example.sky.androidx-startup"
+206-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+207            android:exported="false" >
+207-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+208            <meta-data
+208-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+209                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+209-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+210                android:value="androidx.startup" />
+210-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Alumno\.gradle\caches\transforms-3\c4c170781a20bafe7d77e26771e983eb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+211            <meta-data
+211-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Alumno\.gradle\caches\transforms-3\2f0864feb32ba6c524f296bdbd43bcd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+212                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+212-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Alumno\.gradle\caches\transforms-3\2f0864feb32ba6c524f296bdbd43bcd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+213                android:value="androidx.startup" />
+213-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Alumno\.gradle\caches\transforms-3\2f0864feb32ba6c524f296bdbd43bcd3\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+214            <meta-data
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\e8bf94a2b670f34d55d7a784851d513d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+215                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\e8bf94a2b670f34d55d7a784851d513d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+216                android:value="androidx.startup" />
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\e8bf94a2b670f34d55d7a784851d513d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+217        </provider>
+218
+219        <receiver
+219-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+220            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+220-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+221            android:enabled="true"
+221-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+222            android:exported="false" >
+222-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+223        </receiver>
+224
+225        <service
+225-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+226            android:name="com.google.android.gms.measurement.AppMeasurementService"
+226-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+227            android:enabled="true"
+227-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+228            android:exported="false" />
+228-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+229        <service
+229-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+230            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+230-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+231            android:enabled="true"
+231-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+232            android:exported="false"
+232-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+233            android:permission="android.permission.BIND_JOB_SERVICE" />
+233-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a94c2a50e10fcb535fa652f1902b8693\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+>>>>>>> main
 234
 235        <uses-library
 235-->[androidx.window:window:1.0.0] C:\Users\pedro\.gradle\caches\transforms-3\101d96aace5c8d19f235b9580bd2822d\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
