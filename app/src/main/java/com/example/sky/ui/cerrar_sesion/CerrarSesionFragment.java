@@ -1,18 +1,18 @@
 package com.example.sky.ui.cerrar_sesion;
 
+import com.example.sky.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-
-import com.example.sky.R;
-
 
 public class CerrarSesionFragment extends Fragment {
 
@@ -32,3 +32,4 @@ public class CerrarSesionFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
     }
 }
+

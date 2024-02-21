@@ -4,10 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginStart="16dp"
-    android:layout_marginTop="16dp"
-    android:layout_marginEnd="16dp"
-    android:layout_marginBottom="16dp">
+    android:background="@color/white"
+    android:id="@+id/subir_foto">
 
     <!-- Título -->
     <TextView
@@ -17,7 +15,7 @@
         android:text="Subir Foto"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="8dp"/>
 
     <!-- Texto explicativo para Titulo de la Foto -->
@@ -26,6 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Titulo de la Foto:"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="8dp"/>
 
     <!-- Título de la Foto -->
@@ -35,8 +36,9 @@
         android:layout_height="wrap_content"
         android:hint="Ingrese el titulo de la foto"
         android:inputType="text"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <!-- Texto explicativo para Categoría -->
     <TextView
@@ -44,7 +46,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Categoría:"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <!-- Categoría -->
     <Spinner
@@ -52,8 +56,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:entries="@array/categoria"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <!-- Texto explicativo para Link de la Foto -->
     <TextView
@@ -61,7 +66,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Link de la Foto:"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <!-- Link de la Foto -->
     <EditText
@@ -70,15 +77,19 @@
         android:layout_height="wrap_content"
         android:hint="Ingrese el link de la foto"
         android:inputType="text"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
 
     <!-- Botones de Retroceso y Confirmar -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
 
         <!-- Botón de Volver -->
         <Button

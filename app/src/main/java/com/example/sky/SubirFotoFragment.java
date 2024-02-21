@@ -72,8 +72,13 @@ public class SubirFotoFragment extends Fragment {
     }
 
     private void volverAMainActivity() {
-        Fragment myfragment3 = new PerfilFragment();
-        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myfragment3).commit();
+        FragmentManager fragmentManager = getParentFragmentManager();
+
+        PerfilFragment perfilFragment = new PerfilFragment();
+        FragmentTransaction transaction = fragmentManager. beginTransaction();
+        transaction.replace(R.id.nav_host_fragment_content_drawer, perfilFragment);
+        transaction.addToBackStack(null); // Para permitir volver al fragmento anterior al presionar el botón "!
+        transaction.commit();
     }
 
 }

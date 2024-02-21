@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-42:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-51:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\c979d096cb9f589f91c2c79be7871c80\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\ba7a84241cb1518d85454a5dc19a473b\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

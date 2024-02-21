@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-42:/values-v18/values-v18.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-51:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\c9c2a74f123cdebcaf6465c79cf99e7f\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\7266a4bb25defd48e05dc96293720466\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

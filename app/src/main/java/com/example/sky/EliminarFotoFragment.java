@@ -105,6 +105,6 @@ public class EliminarFotoFragment extends Fragment {
 
     private void volverAMainActivity() {
         Fragment myfragment3 = new PerfilFragment();
-        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, myfragment3).commit();
+        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
     }
 }
