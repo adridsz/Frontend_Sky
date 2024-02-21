@@ -28,29 +28,6 @@ public class EliminarImagenCarpetaViewHolder extends RecyclerView.ViewHolder {
         checkBox = (CheckBox) itemView.findViewById(R.id.checkBox);
         checkBox2 = (CheckBox) itemView.findViewById(R.id.checkBox2);
 
-        imagen.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Context context = view.getContext();
-                Toast.makeText(context, "Clicaste en la primera foto", Toast.LENGTH_LONG).show();
-                //cambiar a actividad de mostrar info de la foto
-                Intent intent = new Intent(context, Imagen.class);
-                intent.putExtra("image_url", imagenes.getImageUrl());
-                context.startActivity(intent);
-            }
-        });
-
-        imagen2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Context context = view.getContext();
-                Toast.makeText(context, "Clicaste en la segunda foto", Toast.LENGTH_LONG).show();
-                //cambiar a actividad de mostrar info de la foto
-                Intent intent = new Intent(context, Imagen.class);
-                intent.putExtra("image_url", imagenes.getImageUrl2());
-                context.startActivity(intent);
-            }
-        });
     }
 
     public void showData(EliminarImagenCarpetaData data, Activity activity){

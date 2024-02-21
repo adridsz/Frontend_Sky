@@ -8,6 +8,14 @@
     android:background="#FFFFFF">
 
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -19,6 +27,77 @@
         app:layout_constraintBottom_toBottomOf="parent"
         />
 
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/categorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/categAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF8000"
+                android:text="Animal"
+                android:textSize="15sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/categPaisajismo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF0000"
+                android:text="Paisajismo"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/categAnimal"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/categComida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF0080"
+                android:text="Comida"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/categPaisajismo"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/categOcio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#DF02F1"
+                android:text="Ocio"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/categComida"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/categHobby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0000FF"
+                android:text="Hobby"
+                android:textSize="15sp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/categOcio"
+                tools:ignore="MissingConstraints"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
 
 
 
@@ -111,11 +190,20 @@
 
         <ImageView
             android:id="@+id/lupa_mano"
+<<<<<<< HEAD
+            android:layout_width="192dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/lupa_sky"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+=======
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:src="@drawable/lupa_sky"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
+>>>>>>> main
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

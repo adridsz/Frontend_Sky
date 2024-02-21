@@ -3334,6 +3334,7 @@ id btnImagenes
 id btnVolver
 id buttonBuscar
 id buttonPanel
+id buttonVolver
 id buttonnLoggin
 id buttonnReggister
 id buttonnRegister

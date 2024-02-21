@@ -4,7 +4,7 @@
             "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\pedro\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

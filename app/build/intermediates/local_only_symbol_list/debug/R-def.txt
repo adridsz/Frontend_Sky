@@ -72,6 +72,7 @@ id btnEditarCarpeta
 id btnImagenes
 id btnVolver
 id buttonBuscar
+id buttonVolver
 id buttonnLoggin
 id buttonnReggister
 id buttonnRegister
