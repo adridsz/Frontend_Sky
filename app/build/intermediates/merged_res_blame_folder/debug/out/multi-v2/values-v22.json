@@ -4,7 +4,7 @@
             "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pedro\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\eb17f0a41888f59b8f114a7b787fb68e\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

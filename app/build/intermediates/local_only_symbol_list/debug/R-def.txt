@@ -53,10 +53,12 @@ id Contraseña
 id CorreoElectrónico
 id Correo_electrónico
 id Digit_Contr
+id ImageViewCarpeta
 id NombUsuario
 id NombreUsuario
 id Password
 id Pregunta
+id TextViewCarpeta
 id TextoCarpeta
 id animal
 id app_bar_drawer
@@ -79,6 +81,7 @@ id buttonnRegister
 id buttonnVolver
 id cancelar
 id carpeta
+id carpetaFragment
 id cartel_carpetas
 id cartel_imagenes
 id casilla
@@ -132,6 +135,7 @@ id nombre
 id nombreUsuario
 id nombre_perfil
 id ocio
+id otrosPerfilesFragment
 id paisajismo
 id recyclerViewEditarCarpeta
 id recyclerViewEliminarImagenCarpeta
@@ -176,6 +180,7 @@ layout activity_register
 layout app_bar_drawer
 layout content_drawer
 layout fragment_buscador
+layout fragment_carpeta
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
 layout fragment_editar_carpetas_view_holder

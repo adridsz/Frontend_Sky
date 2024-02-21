@@ -5,14 +5,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
 import android.widget.Button;
-import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,16 +35,17 @@ public class OtrosPerfilesFragment extends Fragment {
     private boolean mostrarImagenes = true;
     private RecyclerView recyclerViewImagenes;
 
+    // Método llamado cuando se crea la vista del fragmento
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Infla el diseño del fragmento
+        // Inflar el diseño del fragmento_otros_perfiles.xml
         View view = inflater.inflate(R.layout.fragment_otros_perfiles, container, false);
 
+        // Inicializar el contexto
         context = requireContext();
 
         // Obtén referencias a las vistas
         ImageView fotoPerfil = view.findViewById(R.id.fotoPerfil);
-
         TextView nombreUsuario = view.findViewById(R.id.nombreUsuario);
         TextView descripcionUsuario = view.findViewById(R.id.descripcionUsuario);
 
@@ -54,20 +54,16 @@ public class OtrosPerfilesFragment extends Fragment {
 
         recyclerViewImagenes = (RecyclerView) view.findViewById(R.id.recyclerViewImagenes);
 
-        // Configura la imagen de perfil y el nombre de usuario
-        fotoPerfil.setImageResource(R.drawable.ic_launcher_foreground); // Reemplaza con la lógica para cargar la foto
-        nombreUsuario.setText("Nombre de usuario"); // Reemplaza con la lógica para cargar el nombre
-
-        // Configura la descripción del usuario
-        descripcionUsuario.setText("Descripción del usuario...");
+        ImageView ImageViewCarpeta = view.findViewById(R.id.ImageViewCarpeta);
 
         // Maneja los clics en los botones de imágenes y carpetas
         btnImagenes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mostrarImagenes = true;
+                ImageViewCarpeta.setVisibility(View.GONE);
+                Toast.makeText(getActivity(), "Estás en imágenes", Toast.LENGTH_SHORT).show();
                 recyclerViewImagenes.setVisibility(View.VISIBLE);
-                showToast("Estás en imágenes");
                 peticionImagenes();
             }
         });
@@ -77,21 +73,33 @@ public class OtrosPerfilesFragment extends Fragment {
             public void onClick(View view) {
                 mostrarImagenes = false;
                 recyclerViewImagenes.setVisibility(View.GONE);
-                showToast("Estás en carpetas");
-                // Agregar lógica para cargar carpetas del usuario
+                Toast.makeText(getActivity(), "Estás en carpetas", Toast.LENGTH_SHORT).show();
+                ImageViewCarpeta.setVisibility(View.VISIBLE);
             }
         });
 
+        ImageViewCarpeta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Obtener el FragmentManager
+                FragmentManager fragmentManager = getParentFragmentManager();
+
+                // Reemplazar el fragmento actual con el fragmento CarpetaFragment
+                CarpetaFragment carpetaFragment = new CarpetaFragment();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.replace(R.id.otrosPerfilesFragment, carpetaFragment);
+                transaction.addToBackStack(null); // Para permitir volver al fragmento anterior al presionar el botón "Volver"
+                transaction.commit();
+            }
+        });
+
+        // Hacer la petición de imágenes
         peticionImagenes();
 
-        return view;
+        return view; // Devolver la vista inflada
     }
 
-    // Método para mostrar Toast
-    private void showToast(String message) {
-        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
-    }
-
+    // Método para hacer la petición de imágenes
     private void peticionImagenes() {
         List<Foto> listaFoto = new ArrayList<>();
 
@@ -103,11 +111,13 @@ public class OtrosPerfilesFragment extends Fragment {
                     @Override
                     public void onResponse(JSONArray response) {
                         try {
+                            // Iterar sobre la respuesta JSON para obtener objetos de imagen
                             for (int i=0; i < response.length(); i++) {
                                 JSONObject jsonObject = response.getJSONObject(i);
                                 Foto foto = new Foto(jsonObject);
                                 listaFoto.add(foto);
                             }
+                            // Configurar el adaptador para el RecyclerView y mostrar las imágenes
                             FotosAdapter adapter = new FotosAdapter(listaFoto);
                             recyclerViewImagenes.setAdapter(adapter);
                             recyclerViewImagenes.setLayoutManager(new LinearLayoutManager(context));
@@ -119,6 +129,7 @@ public class OtrosPerfilesFragment extends Fragment {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        // Manejar errores de la petición
                         Toast.makeText(getActivity(), "Error" + error, Toast.LENGTH_SHORT).show();
                     }
                 }

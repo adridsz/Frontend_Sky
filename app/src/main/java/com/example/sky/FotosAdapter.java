@@ -14,36 +14,41 @@ import java.util.List;
 
 public class FotosAdapter extends RecyclerView.Adapter<FotosAdapter.ViewHolder> {
 
-    private List<Foto> listaFotos;
+    private List<Foto> listaFotos; // Lista de objetos Foto
 
+    // Constructor que recibe la lista de fotos
     public FotosAdapter(List<Foto> listaFotos) {
         this.listaFotos = listaFotos;
     }
 
+    // Método llamado cuando se crean nuevas instancias de ViewHolder
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        // Inflar el diseño del elemento de foto (item_foto.xml)
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_foto, parent, false);
-        return new ViewHolder(view);
+        return new ViewHolder(view); // Devolver una nueva instancia de ViewHolder
     }
 
+    // Método llamado para mostrar datos en una posición específica
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Foto foto = listaFotos.get(position);
-        holder.textViewTituloFoto.setText(foto.getTitulo());
+        Foto foto = listaFotos.get(position); // Obtener la Foto en la posición dada
+        holder.textViewTituloFoto.setText(foto.getTitulo()); // Establecer el texto del título de la foto
 
         // Cargar la imagen con Glide
         Glide.with(holder.itemView)
-                .load(foto.getLinkImagen())
-                .into(holder.imageViewFoto);
+                .load(foto.getLinkImagen()) // URL de la imagen
+                .into(holder.imageViewFoto); // ImageView donde se mostrará la imagen
     }
 
-
+    // Método que devuelve el número total de elementos en la lista
     @Override
     public int getItemCount() {
         return listaFotos.size();
     }
 
+    // Clase ViewHolder que contiene referencias a las vistas en un elemento de RecyclerView
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView textViewTituloFoto;
         private ImageView imageViewFoto;

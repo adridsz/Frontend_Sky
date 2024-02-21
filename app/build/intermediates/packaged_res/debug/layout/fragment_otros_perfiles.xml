@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/otrosPerfilesFragment"
     android:background="#FFFFFF">
 
     <ImageView
@@ -19,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:text="&amp;animales123" />
+        android:text="\@animales123" />
 
     <TextView
         android:id="@+id/descripcionUsuario"
@@ -57,5 +58,22 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:id="@+id/ImageViewCarpeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/carpeta"
+        android:clickable="true"
+        android:onClick="onImageViewCarpetaClick" />
+    <TextView
+        android:id="@+id/TextViewCarpeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Felinos" />
 
 </LinearLayout>

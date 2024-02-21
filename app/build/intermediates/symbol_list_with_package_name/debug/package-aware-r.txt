@@ -3213,6 +3213,7 @@ id CorreoElectrónico
 id Correo_electrónico
 id Digit_Contr
 id FUNCTION
+id ImageViewCarpeta
 id META
 id NO_DEBUG
 id NombUsuario
@@ -3226,6 +3227,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id TextViewCarpeta
 id TextoCarpeta
 id accelerate
 id accessibility_action_clickable_span
@@ -3344,6 +3346,7 @@ id callMeasure
 id cancel_button
 id cancelar
 id carpeta
+id carpetaFragment
 id carryVelocity
 id cartel_carpetas
 id cartel_imagenes
@@ -3637,6 +3640,7 @@ id open_search_view_search_prefix
 id open_search_view_status_bar_spacer
 id open_search_view_toolbar
 id open_search_view_toolbar_container
+id otrosPerfilesFragment
 id outline
 id outward
 id overshoot
@@ -3981,6 +3985,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_buscador
+layout fragment_carpeta
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
 layout fragment_editar_carpetas_view_holder

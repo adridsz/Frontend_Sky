@@ -4,7 +4,7 @@
             "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pedro\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
+                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-h480dp-land-v13\\values-h480dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
