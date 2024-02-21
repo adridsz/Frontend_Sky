@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\bb5db7ff352e2866732d16bf39a8c6b9\\transformed\\browser-1.4.0\\res\\values-en-rGB\\values-en-rGB.xml",

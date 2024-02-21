@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-et/values-et.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-et/values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-et\\values-et.xml",
