@@ -51,6 +51,8 @@ id Digit_Contr
 id NombUsuario
 id NombreUsuario
 id Password
+id Pregunta
+id TextoCarpeta
 id animal
 id app_bar_drawer
 id biografia_perfil
@@ -60,6 +62,7 @@ id botonesLayout
 id btnCancelar
 id btnCarpetas
 id btnConfirmar
+id btnConfirmarEliminar
 id btnEditarCarpeta
 id btnImagenes
 id btnVolver
@@ -73,6 +76,8 @@ id carpeta
 id cartel_carpetas
 id cartel_imagenes
 id casilla
+id checkBox
+id checkBox2
 id comida
 id confirmar
 id correo
@@ -96,6 +101,7 @@ id imageViewFoto
 id imagen
 id imagen2
 id imagen_perfil
+id imagencarpeta
 id img_celda
 id lapiz
 id listViewFotos
@@ -113,6 +119,8 @@ id nombreUsuario
 id nombre_perfil
 id ocio
 id paisajismo
+id recyclerViewEditarCarpeta
+id recyclerViewEliminarImagenCarpeta
 id recyclerViewImagenes
 id recycler_eliminar
 id recycler_perfil
@@ -145,6 +153,8 @@ layout activity_detail
 layout activity_drawer
 layout activity_ecview_holder
 layout activity_eliminar_carpetas
+layout activity_eliminar_imagen_carpeta
+layout activity_eliminar_imagen_carpeta_view_holder
 layout activity_imagen
 layout activity_imagen_view_holder
 layout activity_imagenes_view_holder
@@ -158,6 +168,7 @@ layout app_bar_drawer
 layout content_drawer
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
+layout fragment_editar_carpetas_view_holder
 layout fragment_eliminar_foto
 layout fragment_inicio
 layout fragment_otros_perfiles
@@ -172,6 +183,7 @@ mipmap ic_launcher_round
 navigation mobile_navigation2
 string action_settings
 string app_name
+string com.google.firebase.crashlytics.mapping_file_id
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
