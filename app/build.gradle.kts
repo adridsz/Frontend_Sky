@@ -40,8 +40,8 @@ dependencies {
 
     implementation ("com.github.bumptech.glide:glide:4.13.0")
     implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
-    implementation("com.google.firebase:firebase-auth:21.0.1")
-    implementation("com.google.firebase:firebase-database:20.0.0")
+    implementation("com.google.firebase:firebase-auth:22.3.1")
+    implementation("com.google.firebase:firebase-database:20.3.0")
     implementation("com.google.firebase:firebase-analytics")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")

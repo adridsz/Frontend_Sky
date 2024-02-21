@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuscadorFragment"
+    android:background="@drawable/fondo_buscador">
+
+
+    <!-- Definimos un EditText para la entrada de texto del usuario -->
+    <EditText
+        android:id="@+id/editTextBuscador"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Buscador..."
+        android:background="@drawable/border"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <!-- Definimos un ImageButton para la acción de búsqueda -->
+    <ImageView
+        android:id="@+id/buttonBuscar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/lupa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/editTextBuscador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginTop="25sp"
+        app:layout_constraintTop_toBottomOf="@id/buttonBuscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />s
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

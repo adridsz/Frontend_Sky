@@ -84,32 +84,31 @@ public class RegisterActivity extends AppCompatActivity {
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, task -> {
                     // Sitodo sale bien, obtiene el usuario actual y guarda los datos adicionales en la base de datos
-                    //if (task.isSuccessful()) {
+                    Toast.makeText(this, Boolean.toString(task.isSuccessful()), Toast.LENGTH_SHORT).show();
+                    if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
                         Usuario nuevoUsuario = new Usuario(nombre, email);
                         FirebaseDatabase.getInstance().getReference("usuarios")
                                 .child(user.getUid())
                                 .setValue(nuevoUsuario)
                                 .addOnCompleteListener(taskDb -> {
-                                    //aquí tambien podríamos añadir un if (task.isSucesssful()) para que no se caiga la app. En este caso lo quitamos
-                                    // Si la tarea de la base de datos es exitosa, muestra un mensaje de éxito y inicia la actividad LoginActivity
-                                    Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show();
-                                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-                                    finish();
-                                })
-                                .addOnFailureListener(this, e -> {
-                                    // Si el programa nos falla con una excepción, la imprime y mostraremos un mensaje de error
-                                    e.printStackTrace();
-                                    Toast.makeText(this, "Error al guardar datos"+e.getMessage(),  Toast.LENGTH_SHORT).show();
+                                    if (taskDb.isSuccessful()) {
+                                        // Si la tarea de la base de datos es exitosa, muestra un mensaje de éxito y inicia la actividad LoginActivity
+                                        Toast.makeText(this, "Registro exitoso", Toast.LENGTH_LONG).show();
+                                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                                        finish();
+                                    } else {
+                                        Toast.makeText(this, "Error al guardar datos" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                        finish();
+                                    }
                                 });
-                    //} else {
+                    } else {
                         // Si este falla, mostramos un mensaje de error.
                         Log.e("TagError", task.getException().getMessage());
                         Toast.makeText(RegisterActivity.this, "Registro fallido: " + task.getException().getMessage(), Toast.LENGTH_LONG).show();
-                });//En caso de borrar esta llave hay que descomentar la de abajo y crear un if para que no se caiga la app
-        }
-
-        //});
+                }       //En caso de borrar esta llave hay que descomentar la de abajo y crear un if para que no se caiga la app
+        });
+    }
 
     private class Usuario {
         public String nombre;
@@ -119,6 +118,14 @@ public class RegisterActivity extends AppCompatActivity {
         public Usuario(String nombre, String email) {
             this.nombre = nombre;
             this.email = email;
+        }
+
+        public String getEmail() {
+            return email;
+        }
+
+        public String getNombre() {
+            return nombre;
         }
     }
 }

@@ -58,17 +58,16 @@ public class LoginActivity extends AppCompatActivity {
         // Intenta iniciar sesión con el correo electrónico y la contraseña
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, task -> {
-                    // Si la tarea es exitosa, inicia la actividad InicioFragment, muestra un mensaje de bienvenida y termina la actividad actual
-                    Toast.makeText(this, "Bienvenido", Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(LoginActivity.this, Drawer.class));
-                    error = false;
-                    finish();
-                })
-                .addOnFailureListener(this, e -> {
-                    if (error == true) {
+                    if (task.isSuccessful()) {
+                        // Si la tarea es exitosa, inicia la actividad InicioFragment, muestra un mensaje de bienvenida y termina la actividad actual
+                        Toast.makeText(this, "Bienvenido", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(LoginActivity.this, Drawer.class));
+                        error = false;
+                        finish();
+                    } else {
+
                         // Si la tarea falla con una excepción, imprime la excepción
-                        e.printStackTrace();
-                        Toast.makeText(this, "Error al iniciar sesión" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Error al iniciar sesión" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
     }
