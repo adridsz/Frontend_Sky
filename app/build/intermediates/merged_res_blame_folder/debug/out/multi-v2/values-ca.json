@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-ca/values-ca.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-55:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\143b8edba6927891de80eadc56ba7071\\transformed\\play-services-basement-18.1.0\\res\\values-ca\\values.xml",

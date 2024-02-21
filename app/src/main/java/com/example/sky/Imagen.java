@@ -1,10 +1,12 @@
 package com.example.sky;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -42,6 +44,21 @@ public class Imagen extends AppCompatActivity {
                 .load(imagen_url)
                 .apply(requestOptions)
                 .into(foto);
+
+        usuario.findViewById(R.id.usuario);
+
+        usuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //aqui vamos al codigo de bet de SubirFotoFragment
+                // Comienza la transacción del fragmento
+                Fragment myfragment3 = new OtrosPerfilesFragment();
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.nav_host_fragment_content_drawer, new myfragment3())
+                        .commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment_content_drawer, myfragment3).commit();
+            }
+        });
 
     }
 }

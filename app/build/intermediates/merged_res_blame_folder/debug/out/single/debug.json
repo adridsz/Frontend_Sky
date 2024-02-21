@@ -1,600 +1,318 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_modificar_fuentes.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_modificar_fuentes.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_inicio.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_inicio.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_lapiz2.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_lapiz2.png"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_blackimg.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/blackimg.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/menu_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/menu/drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/menu_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/menu/drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_sky.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/sky.png"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_editar_carpetas_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_editar_carpetas_view_holder.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_inicio.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_inicio.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_hampster.jpeg.flat",
+        "source": "com.example.sky.app-main-59:/drawable/hampster.jpeg"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/navigation_mobile_navigation2.xml.flat",
-        "source": "com.example.sky.app-main-55:/navigation/mobile_navigation2.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_tres_puntos.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_tres_puntos.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_border.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/border.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_fondo_login_register.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/fondo_login_register.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_inicio.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_inicio.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_inicio.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_inicio.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_fondo_buscador.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/fondo_buscador.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_logo.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/logo.png"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_ecview_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_ecview_holder.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_tres_puntos.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_tres_puntos.png"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_dashboard_black_24dp.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_lapiz2.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_lapiz2.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_fondo_login_register.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/fondo_login_register.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_carpeta.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/carpeta.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_imagen.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_imagen.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_modificar_temas.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_modificar_temas.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/xml_backup_rules.xml.flat",
-        "source": "com.example.sky.app-main-55:/xml/backup_rules.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_eliminar_carpetas.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_eliminar_carpetas.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_carpetas_view_holder.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_carpetas_view_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_sky_name.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/sky_name.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_menu_gallery.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_menu_gallery.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_app_bar_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/app_bar_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_imagenes_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_imagenes_view_holder.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_buscador.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_buscador.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.sky.app-main-55:/xml/data_extraction_rules.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_item_foto.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/item_foto.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_modificar_fuentes.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_modificar_fuentes.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_border_login_register.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/border_login_register.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_home_black_24dp.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_otros_perfiles.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_otros_perfiles.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_app_bar_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/app_bar_drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_menu_slideshow.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_menu_slideshow.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_editar_carpeta.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_editar_carpeta.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_home_black_24dp.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_content_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/content_drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_content_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/content_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_modificar_info.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_modificar_info.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_editar_carpeta.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_editar_carpeta.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_hampster.jpeg.flat",
-        "source": "com.example.sky.app-main-55:/drawable/hampster.jpeg"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_lupa.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/lupa.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_fondo_inicio.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/fondo_inicio.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_modificar_info.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_modificar_info.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_otros_perfiles.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_otros_perfiles.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/layout_nav_header_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/nav_header_drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_configuracion.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_configuracion.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_perfil.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_perfil.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.sky.app-main-59:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_cerrar_sesion.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_cerrar_sesion.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_inicio.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_inicio.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_perfil2.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_perfil2.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_blackimg.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/blackimg.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_perfil.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_perfil.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_configuracion.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_configuracion.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_imagen_view_holder.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_imagen_view_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_buscador.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_buscador.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_lapiz.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_lapiz.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_modificar_temas.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_modificar_temas.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_detail.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_detail.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_border_texto_desc.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/border_texto_desc.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_huellitas.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/huellitas.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_carpeta.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_carpeta.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_sky_name.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/sky_name.png"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_lupa.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/lupa.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_carpeta.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/carpeta.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_register.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_register.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_perfil.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_perfil.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_border_login_register.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/border_login_register.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/menu_activity_main_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/menu/activity_main_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.sky.app-main-59:/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/layout_nav_header_drawer.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/nav_header_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_border.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/border.xml"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_side_nav_bar.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/side_nav_bar.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_perfil2.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_perfil2.png"
     },
     {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
-=======
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_fondo_login_register.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\fondo_login_register.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_lapiz.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_lapiz.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_imagenes_view_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagenes_view_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_cerrar_sesion.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_cerrar_sesion.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_carpeta.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\carpeta.png"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_editar_carpetas_view_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_editar_carpetas_view_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_configuracion.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_configuracion.png"
+        "merged": "com.example.sky.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sky.app-main-59:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.sky.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.sky.app-merged_res-57:/navigation_mobile_navigation2.xml.flat",
+        "source": "com.example.sky.app-main-59:/navigation/mobile_navigation2.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_perfil2.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_perfil2.png"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_detail.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_detail.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_ecview_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_ecview_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_huellitas.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/huellitas.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_menu_slideshow.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_imagen_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_imagen_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_subir_foto.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_subir_foto.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\menu\\activity_main_drawer.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.sky.app-main-59:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_sky.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\sky.png"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_register.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_border.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\border.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_logo.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/logo.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_modificar_info.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_info.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_imagen.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_imagen.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_home_black_24dp.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_carpetas_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_carpetas_view_holder.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_sky.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/sky.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_eliminar_imagen_carpeta_view_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_imagen_carpeta_view_holder.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_login.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_login.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_icono_cerrar_sesion.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/icono_cerrar_sesion.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_menu_camera.xml"
+        "merged": "com.example.sky.app-merged_res-57:/layout_fragment_eliminar_foto.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/fragment_eliminar_foto.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_detail.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_detail.xml"
+        "merged": "com.example.sky.app-merged_res-57:/drawable_lupa_sky.png.flat",
+        "source": "com.example.sky.app-main-59:/drawable/lupa_sky.png"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_eliminar_imagen_carpeta.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_eliminar_imagen_carpeta.xml"
     },
     {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_eliminar_carpetas.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_carpetas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_sky_name.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\sky_name.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_buscador.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_buscador.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_imagen.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagen.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_hampster.jpeg.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\hampster.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_imagen_view_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_imagen_view_holder.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_inicio.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_inicio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_dashboard_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_border_login_register.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\border_login_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_cerrar_sesion.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_cerrar_sesion.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_lapiz2.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_lapiz2.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_perfil.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_perfil.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\menu_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\menu\\drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_inicio.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_inicio.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_carpeta.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_carpeta.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_modificar_fuentes.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_fuentes.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_item_foto.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\item_foto.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_otros_perfiles.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_otros_perfiles.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_notifications_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_editar_carpeta.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_editar_carpeta.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_lupa.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\lupa.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_content_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\content_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_app_bar_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\app_bar_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\ic_menu_gallery.xml"
->>>>>>> main
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_huellitas.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\huellitas.png"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_imagenes_view_holder.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_imagenes_view_holder.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_cerrar_sesion.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_cerrar_sesion.png"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_eliminar_carpetas.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_eliminar_carpetas.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_item_foto.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/item_foto.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_eliminar_foto.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_eliminar_foto.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_border_texto_desc.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/border_texto_desc.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_menu_camera.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_menu_camera.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.sky.app-main-55:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_login.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_login.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_icono_carpeta.png.flat",
-        "source": "com.example.sky.app-main-55:/drawable/icono_carpeta.png"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "com.example.sky.app-main-55:/drawable/ic_notifications_black_24dp.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_inicio.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_inicio.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_fragment_perfil.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/fragment_perfil.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-53:/layout_activity_ecview_holder.xml.flat",
-        "source": "com.example.sky.app-main-55:/layout/activity_ecview_holder.xml"
-=======
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_border_texto_desc.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\border_texto_desc.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_lapiz.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_lapiz.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_perfil.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_perfil.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_modificar_temas.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_modificar_temas.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_inicio.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_inicio.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_eliminar_imagen_carpeta.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_eliminar_imagen_carpeta.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_nav_header_drawer.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\nav_header_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\navigation_mobile_navigation2.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\navigation\\mobile_navigation2.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_blackimg.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\blackimg.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_cerrar_sesion.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_cerrar_sesion.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_activity_carpetas_view_holder.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\activity_carpetas_view_holder.xml"
-    },
-    {
-        "merged": "com.example.sky.app-merged_res-56:/layout_fragment_cerrar_sesion.xml.flat",
-        "source": "com.example.sky.app-main-58:/layout/fragment_cerrar_sesion.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_subir_foto.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_subir_foto.xml"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\drawable_icono_tres_puntos.png.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\drawable\\icono_tres_puntos.png"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-merged_res-56:\\layout_fragment_eliminar_foto.xml.flat",
-        "source": "C:\\Users\\Alumno\\.gradle\\daemon\\8.2\\com.example.sky.app-main-58:\\layout\\fragment_eliminar_foto.xml"
->>>>>>> main
+        "merged": "com.example.sky.app-merged_res-57:/layout_activity_eliminar_imagen_carpeta_view_holder.xml.flat",
+        "source": "com.example.sky.app-main-59:/layout/activity_eliminar_imagen_carpeta_view_holder.xml"
     }
 ]
