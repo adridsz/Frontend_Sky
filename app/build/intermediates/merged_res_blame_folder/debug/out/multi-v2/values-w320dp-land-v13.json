@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.sky.app-mergeDebugResources-51:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "com.example.sky.app-mergeDebugResources-54:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\ba7a84241cb1518d85454a5dc19a473b\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\Alumno\\.gradle\\caches\\transforms-3\\0c41c0b0b42bf8f8436567a46bbcf645\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
