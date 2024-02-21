@@ -31,7 +31,6 @@ public class CarpetasViewHolder extends RecyclerView.ViewHolder {
                 String carpeta = imagenes.getNombre();
                 Context context = view.getContext();
                 EditarCarpetaFragment editarCarpetaFragment = EditarCarpetaFragment.newInstance(carpeta);
-                ((FragmentActivity) context).getSupportFragmentManager().popBackStack();
                 ((FragmentActivity) context).getSupportFragmentManager().beginTransaction()
                         .replace(R.id.nav_host_fragment_content_drawer, editarCarpetaFragment)
                         .addToBackStack(null)

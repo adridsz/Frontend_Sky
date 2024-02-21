@@ -1,19 +1,41 @@
 package com.example.sky;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.Volley;
+import com.example.sky.ui.perfil.Imagenes.ImagenesAdapter;
+import com.example.sky.ui.perfil.Imagenes.ImagenesData;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class EditarCarpetaFragment extends Fragment {
     private Button btnEditarCarpeta;
+    private Context context;
+    private RequestQueue requestQueue;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,11 +53,13 @@ public class EditarCarpetaFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        // Obtenemos nuevamente el contexto de la aplicación
+        String nombreCarpeta = getArguments().getString("nombreCarpeta");
+        context = getContext();
+        // Inicializamos la cola de solicitudes de Volley
+        requestQueue = Volley.newRequestQueue(context);
         TextView textView = view.findViewById(R.id.textView);
-        if (getArguments() != null) {
-            String nombreCarpeta = getArguments().getString("nombreCarpeta");
-            textView.setText(nombreCarpeta);
-        }
+        textView.setText(nombreCarpeta);
         btnEditarCarpeta = view.findViewById(R.id.btnEditarCarpeta);
         btnEditarCarpeta.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +67,7 @@ public class EditarCarpetaFragment extends Fragment {
                 mostrarPopUp();
             }
         });
+        verRecyclerView(getView(), nombreCarpeta);
     }
 
     private void mostrarPopUp() {
@@ -88,5 +113,49 @@ public class EditarCarpetaFragment extends Fragment {
             }
         });
         builder.show();
+    }
+
+    public void verRecyclerView(View view, String nombre) {
+        // Obtenemos una referencia al RecyclerView
+        RecyclerView recyclerView = view.findViewById(R.id.recyclerViewEditarCarpeta);
+        JsonArrayRequest request = new JsonArrayRequest(
+                Request.Method.GET,
+                "https://raw.githubusercontent.com/adridsz/Frontend_Sky/main/app/"+nombre+".json",
+                null,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        List<ImagenesData> imagenes = new ArrayList<>();
+                        for (int i = 0; i < response.length(); i += 2) {
+                            try {
+                                JSONObject imagen1 = response.getJSONObject(i);
+                                String imagenurl1 = imagen1.getString("image_url");
+
+                                String imagenurl2 = null;
+                                if (i+1 < response.length()){
+                                    JSONObject imagen2 = response.getJSONObject(i+1);
+                                    imagenurl2 = imagen2.getString("image_url");
+                                }
+
+                                ImagenesData data = new ImagenesData(imagenurl1, imagenurl2);
+                                imagenes.add(data);
+                            } catch (JSONException e) {
+                                throw new RuntimeException(e);
+                            }
+                        }
+                        ImagenesAdapter adapter = new ImagenesAdapter(imagenes, requireActivity());
+                        recyclerView.setAdapter(adapter);
+                        recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                    }
+
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, error.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+        );
+        requestQueue.add(request);
     }
 }
