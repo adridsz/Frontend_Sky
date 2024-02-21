@@ -57,12 +57,9 @@ id ImageViewCarpeta
 id NombUsuario
 id NombreUsuario
 id Password
-<<<<<<< HEAD
-id TextViewiCarpeta
-=======
 id Pregunta
+id TextViewiCarpeta
 id TextoCarpeta
->>>>>>> main
 id animal
 id app_bar_drawer
 id biografia_perfil
@@ -182,11 +179,8 @@ layout activity_modificar_temas
 layout activity_register
 layout app_bar_drawer
 layout content_drawer
-<<<<<<< HEAD
-layout fragment_carpeta
-=======
 layout fragment_buscador
->>>>>>> main
+layout fragment_carpeta
 layout fragment_cerrar_sesion
 layout fragment_editar_carpeta
 layout fragment_editar_carpetas_view_holder

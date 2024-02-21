@@ -82,7 +82,7 @@ public class CarpetaFragment extends Fragment {
 
         JsonArrayRequest request = new JsonArrayRequest(
                 Request.Method.GET,
-                null, // poner la url bien cuando se suba a git :)
+                "https://raw.githubusercontent.com/adridsz/Frontend_Sky/bet/app/imagenesCarpetaOtrosPerfiles.json",
                 null,
                 new Response.Listener<JSONArray>() {
                     @Override
