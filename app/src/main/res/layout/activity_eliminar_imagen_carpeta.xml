@@ -6,4 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".EliminarImagenCarpeta">
 
+    <TextView
+        android:id="@+id/Pregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Que imagen desea eliminar?"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imagencarpeta"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Pregunta"
+        android:background="@android:color/transparent"
+        android:src="@drawable/icono_carpeta"/>
+
+    <TextView
+        android:id="@+id/TextoCarpeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/imagencarpeta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewEliminarImagenCarpeta"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@id/TextoCarpeta"
+        app:layout_constraintBottom_toTopOf="@id/btnConfirmarEliminar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnConfirmarEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

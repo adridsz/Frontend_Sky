@@ -3,6 +3,7 @@ package com.example.sky;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -64,13 +65,13 @@ public class EditarCarpetaFragment extends Fragment {
         btnEditarCarpeta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mostrarPopUp();
+                mostrarPopUp(nombreCarpeta);
             }
         });
         verRecyclerView(getView(), nombreCarpeta);
     }
 
-    private void mostrarPopUp() {
+    private void mostrarPopUp(String nombreCarpeta) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
         builder.setMessage("Editar carpeta");
@@ -79,7 +80,10 @@ public class EditarCarpetaFragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
-                //Aqui agregar menu de eliminar imagenes
+                // Launch the EliminarImagenCarpeta activity
+                Intent intent = new Intent(getActivity(), EliminarImagenCarpeta.class);
+                intent.putExtra("nombreCarpeta", nombreCarpeta);
+                startActivity(intent);
             }
         });
 
