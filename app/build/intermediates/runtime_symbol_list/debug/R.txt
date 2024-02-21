@@ -3226,7 +3226,7 @@ int id SHOW_PROGRESS 0x7f090013
 int id SYM 0x7f090014
 int id TOP_END 0x7f090015
 int id TOP_START 0x7f090016
-int id TextViewiCarpeta 0x7f090017
+int id TextViewCarpeta 0x7f090274
 int id TextoCarpeta 0x7f090018
 int id accelerate 0x7f090019
 int id accessibility_action_clickable_span 0x7f09001a
@@ -3315,7 +3315,6 @@ int id biografia_perfil 0x7f09006c
 int id blocking 0x7f09006d
 int id botCanc 0x7f09006e
 int id botConfirm 0x7f09006f
-int id botonVolver 0x7f090070
 int id botonesLayout 0x7f090071
 int id bottom 0x7f090072
 int id bounce 0x7f090073
@@ -3346,6 +3345,7 @@ int id callMeasure 0x7f09008b
 int id cancel_button 0x7f09008c
 int id cancelar 0x7f09008d
 int id carpeta 0x7f09008e
+int id carpetaFragment 0x7f090276
 int id carryVelocity 0x7f09008f
 int id cartel_carpetas 0x7f090090
 int id cartel_imagenes 0x7f090091

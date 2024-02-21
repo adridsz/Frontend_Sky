@@ -26,7 +26,7 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
   public final ImageView ImageViewCarpeta;
 
   @NonNull
-  public final TextView TextViewiCarpeta;
+  public final TextView TextViewCarpeta;
 
   @NonNull
   public final LinearLayout botonesLayout;
@@ -53,14 +53,14 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
   public final RecyclerView recyclerViewImagenes;
 
   private FragmentOtrosPerfilesBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageView ImageViewCarpeta, @NonNull TextView TextViewiCarpeta,
+      @NonNull ImageView ImageViewCarpeta, @NonNull TextView TextViewCarpeta,
       @NonNull LinearLayout botonesLayout, @NonNull Button btnCarpetas, @NonNull Button btnImagenes,
       @NonNull TextView descripcionUsuario, @NonNull ImageView fotoPerfil,
       @NonNull TextView nombreUsuario, @NonNull LinearLayout otrosPerfilesFragment,
       @NonNull RecyclerView recyclerViewImagenes) {
     this.rootView = rootView;
     this.ImageViewCarpeta = ImageViewCarpeta;
-    this.TextViewiCarpeta = TextViewiCarpeta;
+    this.TextViewCarpeta = TextViewCarpeta;
     this.botonesLayout = botonesLayout;
     this.btnCarpetas = btnCarpetas;
     this.btnImagenes = btnImagenes;
@@ -104,9 +104,9 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.TextViewiCarpeta;
-      TextView TextViewiCarpeta = ViewBindings.findChildViewById(rootView, id);
-      if (TextViewiCarpeta == null) {
+      id = R.id.TextViewCarpeta;
+      TextView TextViewCarpeta = ViewBindings.findChildViewById(rootView, id);
+      if (TextViewCarpeta == null) {
         break missingId;
       }
 
@@ -155,7 +155,7 @@ public final class FragmentOtrosPerfilesBinding implements ViewBinding {
       }
 
       return new FragmentOtrosPerfilesBinding((LinearLayout) rootView, ImageViewCarpeta,
-          TextViewiCarpeta, botonesLayout, btnCarpetas, btnImagenes, descripcionUsuario, fotoPerfil,
+          TextViewCarpeta, botonesLayout, btnCarpetas, btnImagenes, descripcionUsuario, fotoPerfil,
           nombreUsuario, otrosPerfilesFragment, recyclerViewImagenes);
     }
     String missingId = rootView.getResources().getResourceName(id);

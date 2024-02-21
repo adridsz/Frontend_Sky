@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Sky"
         tools:targetApi="31">
         <activity
+            android:name=".CarpetaActivity"
+            android:exported="false" />
+        <activity
             android:name=".EliminarImagenCarpeta"
             android:exported="false" />
         <activity
@@ -80,4 +83,5 @@
             android:name=".ui.perfil.Carpetas.CarpetasViewHolder"
             android:exported="false" />
     </application>
+
 </manifest>

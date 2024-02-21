@@ -58,14 +58,13 @@ id NombUsuario
 id NombreUsuario
 id Password
 id Pregunta
-id TextViewiCarpeta
+id TextViewCarpeta
 id TextoCarpeta
 id animal
 id app_bar_drawer
 id biografia_perfil
 id botCanc
 id botConfirm
-id botonVolver
 id botonesLayout
 id btnCancelar
 id btnCarpetas
@@ -82,6 +81,7 @@ id buttonnRegister
 id buttonnVolver
 id cancelar
 id carpeta
+id carpetaFragment
 id cartel_carpetas
 id cartel_imagenes
 id casilla

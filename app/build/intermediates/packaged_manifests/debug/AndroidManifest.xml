@@ -37,6 +37,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Sky" >
         <activity
+            android:name="com.example.sky.CarpetaActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.sky.EliminarImagenCarpeta"
             android:exported="false" />
         <activity

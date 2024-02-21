@@ -3227,7 +3227,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id TextViewiCarpeta
+id TextViewCarpeta
 id TextoCarpeta
 id accelerate
 id accessibility_action_clickable_span
@@ -3316,7 +3316,6 @@ id biografia_perfil
 id blocking
 id botCanc
 id botConfirm
-id botonVolver
 id botonesLayout
 id bottom
 id bounce
@@ -3347,6 +3346,7 @@ id callMeasure
 id cancel_button
 id cancelar
 id carpeta
+id carpetaFragment
 id carryVelocity
 id cartel_carpetas
 id cartel_imagenes

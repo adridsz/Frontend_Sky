@@ -5,16 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Adapter;
-import android.widget.Button;
-import android.widget.GridLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -47,31 +39,12 @@ public class CarpetaFragment extends Fragment {
         context = requireContext();
 
         // Obtén referencias a las vistas
-        Button botonVolver = view.findViewById(R.id.botonVolver);
         recyclerViewImagenes = (RecyclerView) view.findViewById(R.id.recyclerViewImagenes);
 
         // Configuración inicial
         mostrarImagenes = true;
         recyclerViewImagenes.setVisibility(View.VISIBLE);
         peticionImagenes();
-
-        // Manejar clics en el botón Volver
-        botonVolver.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mostrarImagenes = false;
-                recyclerViewImagenes.setVisibility(View.GONE);
-                // Obtener el FragmentManager
-                FragmentManager fragmentManager = getParentFragmentManager();
-
-                // Reemplazar el fragmento actual con el fragmento FragPerfil
-                OtrosPerfilesFragment otrosPerfilesFragment = new OtrosPerfilesFragment();
-                FragmentTransaction transaction = fragmentManager.beginTransaction();
-                transaction.replace(R.id.otrosPerfilesFragment, otrosPerfilesFragment);
-                transaction.addToBackStack(null); // Para permitir volver al fragmento anterior al presionar el botón "Volver"
-                transaction.commit();
-            }
-        });
 
         return view; // Devolver la vista inflada
     }
