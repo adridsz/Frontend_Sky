@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:1-81:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Alumno\.gradle\caches\transforms-3\8f4002e203b4b8019eb9497233451d50\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Alumno\.gradle\caches\transforms-3\4c98bfc659109ea3c8b6e89ee1b0057a\transformed\glide-4.13.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
@@ -93,17 +93,17 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Alumno\.gradle\c
 MERGED from [androidx.print:print:1.0.0] C:\Users\Alumno\.gradle\caches\transforms-3\8dc04f965faa57d3e39ff5c165d86de1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\2ae70b943ef9d64a04ba66cccf16b43b\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\5c9a82dbb11384b02f5e751802a85ade\transformed\firebase-database-20.3.0\AndroidManifest.xml:23:5-67
@@ -121,10 +121,10 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a79f7de46594fa4d2d11c019c19f644e\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] C:\Users\Alumno\.gradle\caches\transforms-3\a79f7de46594fa4d2d11c019c19f644e\transformed\play-services-measurement-sdk-api-21.5.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Alumno\.gradle\caches\transforms-3\4c98bfc659109ea3c8b6e89ee1b0057a\transformed\glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Alumno\.gradle\caches\transforms-3\4c98bfc659109ea3c8b6e89ee1b0057a\transformed\glide-4.13.0\AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
@@ -190,153 +190,153 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Alumno\.gradle\cac
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Alumno\.gradle\caches\transforms-3\801d5dfd71335eaf4a94c83fab55886f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Alumno\.gradle\caches\transforms-3\801d5dfd71335eaf4a94c83fab55886f\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Alumno\.gradle\caches\transforms-3\153dfd7f19b351ef717647b1a24167e7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:12:9-28
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:12:9-28
 	android:fullBackupContent
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:13:9-47
 	tools:targetApi
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:11:9-42
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:11:9-42
 	android:allowBackup
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:15:9-41
 	android:dataExtractionRules
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.sky.Imagen
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:18:13-35
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:18:13-35
 activity#com.example.sky.ui.inicio.Detail_Activity
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:21:13-54
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:21:13-54
 activity#com.example.sky.ui.inicio.ImagenData
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:24:13-49
 activity#com.example.sky.ui.inicio.ImagenRecyclerViewAdaptar
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:27:13-64
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:27:13-64
 activity#com.example.sky.ui.inicio.ImagenViewHolder
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:30:13-55
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:30:13-55
 activity#com.example.sky.ui.inicio.Inicio
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:32:9-34:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:33:13-45
 activity#com.example.sky.login.LoginActivity
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:35:9-43:20
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:37:13-36
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:36:13-48
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:36:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:38:13-42:29
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:17-69
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:25-66
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:17-77
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:27-74
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.example.sky.login.RegisterActivity
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:45:13-51
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:45:13-51
 activity#com.example.sky.ui.perfil.EliminarCarpeta.ECViewHolder
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:48:13-67
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:48:13-67
 activity#com.example.sky.ui.perfil.EliminarCarpeta.EliminarCarpetas
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:51:13-71
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:51:13-71
 activity#com.example.sky.ModificarFuentes
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:53:9-55:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:54:13-45
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:54:13-45
 activity#com.example.sky.ModificarTemas
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:56:9-58:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:57:13-43
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:57:13-43
 activity#com.example.sky.Ajustes
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:59:9-61:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:59:9-61:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:61:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:60:13-36
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:60:13-36
 activity#com.example.sky.ModificarInfo
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:62:9-64:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:62:9-64:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:64:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:63:13-42
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:63:13-42
 activity#com.example.sky.Buscador
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:65:9-67:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:65:9-67:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:67:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:67:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:66:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:66:13-37
 activity#com.example.sky.Drawer
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:68:9-72:60
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:68:9-72:60
 	android:label
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:71:13-58
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:71:13-58
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:70:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:70:13-37
 	android:theme
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:72:13-57
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:72:13-57
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:69:13-35
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:69:13-35
 activity#com.example.sky.ui.perfil.Imagenes.ImagenesViewHolder
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:73:9-75:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:73:9-75:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:75:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:75:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:74:13-66
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:74:13-66
 activity#com.example.sky.ui.perfil.Carpetas.CarpetasViewHolder
-ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:76:9-78:40
+ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:76:9-78:40
 	android:exported
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:78:13-37
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:78:13-37
 	android:name
-		ADDED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:77:13-66
+		ADDED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:77:13-66
 uses-sdk
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
-INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Alumno\.gradle\caches\transforms-3\8f4002e203b4b8019eb9497233451d50\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Alumno\.gradle\caches\transforms-3\8f4002e203b4b8019eb9497233451d50\transformed\viewbinding-8.1.1\AndroidManifest.xml:5:5-44
 MERGED from [com.github.bumptech.glide:glide:4.13.0] C:\Users\Alumno\.gradle\caches\transforms-3\4c98bfc659109ea3c8b6e89ee1b0057a\transformed\glide-4.13.0\AndroidManifest.xml:6:5-8:41
@@ -516,9 +516,9 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Alumno\
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-database:20.3.0] C:\Users\Alumno\.gradle\caches\transforms-3\5c9a82dbb11384b02f5e751802a85ade\transformed\firebase-database-20.3.0\AndroidManifest.xml:22:5-79

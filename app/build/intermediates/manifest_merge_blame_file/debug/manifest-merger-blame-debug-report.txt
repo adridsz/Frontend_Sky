@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
@@ -45,151 +45,151 @@
 24-->[androidx.core:core:1.9.0] C:\Users\Alumno\.gradle\caches\transforms-3\153dfd7f19b351ef717647b1a24167e7\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 25
 26    <application
-26-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
+26-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:7:5-79:19
 27        android:allowBackup="true"
-27-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:8:9-35
+27-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:8:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.9.0] C:\Users\Alumno\.gradle\caches\transforms-3\153dfd7f19b351ef717647b1a24167e7\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 29        android:dataExtractionRules="@xml/data_extraction_rules"
-29-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:9:9-65
+29-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:9:9-65
 30        android:debuggable="true"
 31        android:extractNativeLibs="false"
 32        android:fullBackupContent="@xml/backup_rules"
-32-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:10:9-54
+32-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:10:9-54
 33        android:icon="@drawable/sky_name"
-33-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:11:9-42
+33-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:11:9-42
 34        android:label="Sky"
-34-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:12:9-28
+34-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:12:9-28
 35        android:roundIcon="@drawable/sky_name"
-35-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:13:9-47
+35-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:13:9-47
 36        android:supportsRtl="true"
-36-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:14:9-35
+36-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:14:9-35
 37        android:testOnly="true"
 38        android:theme="@style/Theme.Sky" >
-38-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:15:9-41
+38-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:15:9-41
 39        <activity
-39-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:17:9-19:40
+39-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:17:9-19:40
 40            android:name="com.example.sky.Imagen"
-40-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:18:13-35
+40-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:18:13-35
 41            android:exported="false" />
-41-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:19:13-37
+41-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:19:13-37
 42        <activity
-42-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:20:9-22:40
+42-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:20:9-22:40
 43            android:name="com.example.sky.ui.inicio.Detail_Activity"
-43-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:21:13-54
+43-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:21:13-54
 44            android:exported="false" />
-44-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:22:13-37
+44-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:22:13-37
 45        <activity
-45-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:23:9-25:40
+45-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:23:9-25:40
 46            android:name="com.example.sky.ui.inicio.ImagenData"
-46-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:24:13-49
+46-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:24:13-49
 47            android:exported="false" />
-47-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:25:13-37
+47-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:25:13-37
 48        <activity
-48-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:26:9-28:40
+48-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:26:9-28:40
 49            android:name="com.example.sky.ui.inicio.ImagenRecyclerViewAdaptar"
-49-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:27:13-64
+49-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:27:13-64
 50            android:exported="false" />
-50-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:28:13-37
+50-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:28:13-37
 51        <activity
-51-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:29:9-31:40
+51-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:29:9-31:40
 52            android:name="com.example.sky.ui.inicio.ImagenViewHolder"
-52-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:30:13-55
+52-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:30:13-55
 53            android:exported="false" />
-53-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:31:13-37
+53-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:31:13-37
 54        <activity
-54-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:32:9-34:40
+54-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:32:9-34:40
 55            android:name="com.example.sky.ui.inicio.Inicio"
-55-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:33:13-45
+55-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:33:13-45
 56            android:exported="false" />
-56-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:34:13-37
+56-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:34:13-37
 57        <activity
-57-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:35:9-43:20
+57-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:35:9-43:20
 58            android:name="com.example.sky.login.LoginActivity"
-58-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:36:13-48
+58-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:36:13-48
 59            android:exported="true" >
-59-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:37:13-36
+59-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:37:13-36
 60            <intent-filter>
-60-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:38:13-42:29
+60-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:38:13-42:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:17-69
-61-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:25-66
+61-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:17-69
+61-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:39:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:17-77
-63-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:27-74
+63-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:17-77
+63-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:41:27-74
 64            </intent-filter>
 65        </activity>
 66        <activity
-66-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:44:9-46:40
+66-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:44:9-46:40
 67            android:name="com.example.sky.login.RegisterActivity"
-67-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:45:13-51
+67-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:45:13-51
 68            android:exported="false" />
-68-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:46:13-37
+68-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:46:13-37
 69        <activity
-69-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:47:9-49:40
+69-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:47:9-49:40
 70            android:name="com.example.sky.ui.perfil.EliminarCarpeta.ECViewHolder"
-70-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:48:13-67
+70-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:48:13-67
 71            android:exported="false" />
-71-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:49:13-37
+71-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:49:13-37
 72        <activity
-72-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:50:9-52:40
+72-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:50:9-52:40
 73            android:name="com.example.sky.ui.perfil.EliminarCarpeta.EliminarCarpetas"
-73-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:51:13-71
+73-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:51:13-71
 74            android:exported="false" />
-74-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:52:13-37
+74-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:52:13-37
 75        <activity
-75-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:53:9-55:40
+75-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:53:9-55:40
 76            android:name="com.example.sky.ModificarFuentes"
-76-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:54:13-45
+76-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:54:13-45
 77            android:exported="false" />
-77-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:55:13-37
+77-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:55:13-37
 78        <activity
-78-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:56:9-58:40
+78-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:56:9-58:40
 79            android:name="com.example.sky.ModificarTemas"
-79-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:57:13-43
+79-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:57:13-43
 80            android:exported="false" />
-80-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:58:13-37
+80-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:58:13-37
 81        <activity
-81-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:59:9-61:40
+81-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:59:9-61:40
 82            android:name="com.example.sky.Ajustes"
-82-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:60:13-36
+82-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:60:13-36
 83            android:exported="false" />
-83-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:61:13-37
+83-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:61:13-37
 84        <activity
-84-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:62:9-64:40
+84-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:62:9-64:40
 85            android:name="com.example.sky.ModificarInfo"
-85-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:63:13-42
+85-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:63:13-42
 86            android:exported="false" />
-86-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:64:13-37
+86-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:64:13-37
 87        <activity
-87-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:65:9-67:40
+87-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:65:9-67:40
 88            android:name="com.example.sky.Buscador"
-88-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:66:13-37
+88-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:66:13-37
 89            android:exported="false" />
-89-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:67:13-37
+89-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:67:13-37
 90        <activity
-90-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:68:9-72:60
+90-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:68:9-72:60
 91            android:name="com.example.sky.Drawer"
-91-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:69:13-35
+91-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:69:13-35
 92            android:exported="false"
-92-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:70:13-37
+92-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:70:13-37
 93            android:label="@string/title_activity_drawer"
-93-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:71:13-58
+93-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:71:13-58
 94            android:theme="@style/Theme.Sky.NoActionBar" />
-94-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:72:13-57
+94-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:72:13-57
 95        <activity
-95-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:73:9-75:40
+95-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:73:9-75:40
 96            android:name="com.example.sky.ui.perfil.Imagenes.ImagenesViewHolder"
-96-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:74:13-66
+96-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:74:13-66
 97            android:exported="false" />
-97-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:75:13-37
+97-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:75:13-37
 98        <activity
-98-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:76:9-78:40
+98-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:76:9-78:40
 99            android:name="com.example.sky.ui.perfil.Carpetas.CarpetasViewHolder"
-99-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:77:13-66
+99-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:77:13-66
 100            android:exported="false" />
-100-->C:\msys64\home\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:78:13-37
+100-->C:\Users\Alumno\Frontend_Sky\app\src\main\AndroidManifest.xml:78:13-37
 101        <activity
 101-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\Alumno\.gradle\caches\transforms-3\f63c89f2fe2022deb6da8a4922e2a14e\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
 102            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
